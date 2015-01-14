@@ -1,5 +1,10 @@
 AEON SHEDNOX HELIX (PLUS LIVE TV MOD)
 
+January 14th, 2015
+
+- Fixed issue with bottom right floor shadow in Includes_Viewtypes.xml
+
+
 
 January 12th, 2015
 
