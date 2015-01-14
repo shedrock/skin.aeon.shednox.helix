@@ -34,7 +34,7 @@
 				<control type="image">
 					<top>140</top>
 					<left>145</left>
-					<texture>IMDb.png</texture>
+					<texture>imdb.png</texture>
 					<width>444</width>
 					<height>120</height>
 					<visible>stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
