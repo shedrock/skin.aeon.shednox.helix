@@ -73,16 +73,17 @@
 			</control>
 			<include>Neon_Floor</include>
 		</control>
-		<control type="image" id="8858">
-			<top>105</top>
-			<texture>views/logo_back.png</texture>
-			<visible>[Control.IsVisible(503) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)] + [Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + Skin.HasSetting(altfloor)]</visible>
-			<include>Animation_CommonFade</include>
-			<animation effect="slide" time="160" end="0,100" tween="cubic" condition="Skin.HasSetting(landscapeonelogo)">Conditional</animation>
-			<include>FullscreenDimensions</include>
-			<animation effect="fade" start="100" end="80" time="40" condition="Substring(Skin.CurrentTheme,whit)">Conditional</animation>
-			<colordiffuse>black</colordiffuse>
-		</control>
+			<control type="image" id="8858">
+				<top>105</top>
+				<width>2040</width>
+				<texture>views/logo_back.png</texture>
+				<visible>[Control.IsVisible(503) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)] + [Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + Skin.HasSetting(altfloor)]</visible>
+				<include>Animation_CommonFade</include>
+				<animation effect="slide" time="160" end="0,100" tween="cubic" condition="Skin.HasSetting(landscapeonelogo)">Conditional</animation>
+				<include>FullscreenDimensions</include>
+				<animation effect="fade" start="100" end="80" time="40" condition="Substring(Skin.CurrentTheme,whit)">Conditional</animation>
+            <colordiffuse>black</colordiffuse>
+        </control>
 	</include>
 	<include name="PanelSpot">
 		<control type="image">
