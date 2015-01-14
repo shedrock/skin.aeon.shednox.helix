@@ -312,7 +312,7 @@
 					<animation effect="fade" delay="240" time="240" reversible="false">Hidden</animation>
 					<visible>Control.IsVisible(57) | Control.IsVisible(508) | [Control.IsVisible(500) + !StringCompare(Container.FolderName,youtube)] | Control.IsVisible(501)</visible>
 					<visible>[[Skin.HasSetting(movielogosfloor) + Container.Content(movies)] | [Skin.HasSetting(tvshowlogosfloor) + Container.Content(tvshows)] | [Skin.HasSetting(movielogosfloor) + Container.Content(sets)]]</visible>
-					<visible>[!Skin.HasSetting(NoFloorLabelMovies) + Container.Content(movies)] | [Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)]</visible>
+					<visible>[!Skin.HasSetting(NoFloorLabelMovies) + Container.Content(movies)] | [Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(sets) + !Skin.HasSetting(NoFloorLabelMovies)]</visible>
 				</control>
 			</control>
 			<include>Furniture_DarkGradient</include>

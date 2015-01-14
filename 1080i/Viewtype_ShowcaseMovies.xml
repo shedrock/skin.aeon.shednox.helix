@@ -3241,7 +3241,7 @@
 							<width>100</width>
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true" flipx="true">$INFO[Window(home).Property(Set.Movie.1.Art(clearlogo))]</texture>
+							<texture background="true" flipx="true">$INFO[ListItem.Art(clearlogo)]</texture>
 							<colordiffuse>99000000</colordiffuse>
 						</control>	
 						<control type="image">
@@ -3250,7 +3250,7 @@
 							<width>100</width>
 							<height>100</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true" flipx="true">$INFO[Window(home).Property(Set.Movie.1.Art(clearlogo))]</texture>
+							<texture background="true" flipx="true">$INFO[ListItem.Art(clearlogo)]</texture>
 							<colordiffuse>99ffffff</colordiffuse>
 						</control>						
 						<control type="group">
