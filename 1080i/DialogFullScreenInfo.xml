@@ -80,7 +80,7 @@
 				<height>68</height>
 				<align>center</align>
 				<aligny>bottom</aligny>
-				<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</label>
+				<label>$INFO[VideoPlayer.Title]</label>
 				<font>Font_ShowcaseMainLabel2_Caps</font>
 				<scroll>true</scroll>
 				<animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
@@ -117,9 +117,8 @@
 			</control>
 			<control type="group">
 				<visible>VideoPlayer.Content(movies) + Skin.HasSetting(Plotinfoscreen)</visible>
-				
 				<control type="label">
-				<visible>!Skin.HasSetting(DisableVideoThumb)</visible>
+				  <visible>!Skin.HasSetting(DisableVideoThumb)</visible>
 					<left>330</left>
 					<top>470</top>
 					<width>300</width>
@@ -143,9 +142,8 @@
 					<wrapmultiline>true</wrapmultiline>
 					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
 				</control>
-				
 				<control type="label">
-				<visible>Skin.HasSetting(DisableVideoThumb)</visible>
+				  <visible>Skin.HasSetting(DisableVideoThumb)</visible>
 					<left>130</left>
 					<top>470</top>
 					<width>300</width>

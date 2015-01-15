@@ -272,7 +272,7 @@
 			</control>
 			<control type="group">
 				<top>993</top>
-				<decscription>bottom bar</decscription>
+				<description>bottom bar</description>
 				<animation type="Visible">
 					<effect type="fade" time="200" end="100"/>
 					<effect type="slide" time="200" start="0,98" end="0,0" tween="cubic"/>
@@ -408,12 +408,12 @@
 		<control type="group">
 			<visible>Skin.HasSetting(Show_Info_Paused)</visible>
 			<control type="group" id="4001">
-				<decscription>bottom bar</decscription>
+				<description>bottom bar</description>
 				<visible>[Player.Seeking | [Player.DisplayAfterSeek + [!IsEmpty(Player.SeekOffset) | !IsEmpty(Player.Chapter)]] | Player.Forwarding | Player.Rewinding] + ![Player.Paused|[Player.Paused+Player.Seeking] | [Player.Paused+Player.DisplayAfterSeek]]</visible>
 				<visible>!Control.IsVisible(4003) + !Control.IsVisible(4004)</visible>
 				<control type="group">
 					<top>993</top>
-					<decscription>bottom bar</decscription>
+					<description>bottom bar</description>
 					<animation type="WindowOpen">
 						<effect type="fade" time="200" end="100"/>
 						<effect type="slide" time="200" start="0,98" end="0,0" tween="cubic"/>
@@ -635,7 +635,7 @@
 					<align>center</align>
 					<aligny>bottom</aligny>
 					<font>Font_ShowcaseMainLabel2_Caps</font>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</label>
+					<label>$INFO[VideoPlayer.Title]</label>
 					<scroll>true</scroll>
 					<animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
 				</control>
