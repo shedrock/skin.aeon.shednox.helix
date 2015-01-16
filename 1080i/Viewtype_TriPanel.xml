@@ -176,7 +176,7 @@
 					</control>
 					<control type="image">
 						<visible>stringcompare(container.folderpath,special://profile/playlists/video/BestPicture.xsp)</visible>
-						<texture background="true" diffuse="thumbs/multiplex_tvmask.png">Oscars2.jpg</texture>
+						<texture background="true" diffuse="thumbs/multiplex_tvmask.png">oscars2.jpg</texture>
 						<animation effect="fade" start="100" end="90" time="50" condition="true">Conditional</animation>
 						<aspectratio scalediffuse="false">scale</aspectratio>
 						<bordersize>9</bordersize>
