@@ -1,5 +1,11 @@
 AEON SHEDNOX HELIX (PLUS LIVE TV MOD)
 
+January 15th, 2015
+
+- Fixed casing issue with Viewtype_TriPanel.xml and DialogVideoInfo.xml
+
+
+
 January 14th, 2015
 
 - Fixed issue with bottom right floor shadow in Includes_Viewtypes.xml
