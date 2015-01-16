@@ -49,8 +49,8 @@ msgid "Live TV"
 msgstr "電視"
 
 msgctxt "#31021"
-msgid "Search XBMC for"
-msgstr "XBMC搜尋"
+msgid "Search Kodi for"
+msgstr "Kodi搜尋"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -353,8 +353,8 @@ msgid "Show timepanel"
 msgstr "顯示時間面板"
 
 msgctxt "#31149"
-msgid "This will shutdown XBMC! [CR]Are you sure?"
-msgstr "即將關閉XBMC！ [CR]確定嗎？"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
+msgstr "即將關閉Kodi！ [CR]確定嗎？"
 
 msgctxt "#31150"
 msgid "Landscape"
@@ -769,16 +769,16 @@ msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · C
 msgstr "[B]配置圖片設定[/B][CR][CR]設定圖片清單選項 · 設定幻燈片秀"
 
 msgctxt "#31405"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]配置服務設定[/B][CR][CR]設定透過 UPnP 和 HTTP 控製 XBMC · 配置檔案分享[CR]啟用 Zeroconf · 配置 AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]配置服務設定[/B][CR][CR]設定透過 UPnP 和 HTTP 控製 Kodi · 配置檔案分享[CR]啟用 Zeroconf · 配置 AirPlay"
 
 msgctxt "#31406"
 msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
 msgstr "[B]配置系統設定[/B][CR][CR]設定和校正顯示輸出 · 設定音效輸出 · 設定遙控器[CR]設定節能選項 · 啟用除錯 · 設定鎖定密碼"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]設置附加元件[/B][CR][CR]管理您已安裝的附加元件\n從xbmc.org瀏覽並安裝附加元件[CR]修改附加元件設定"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]設置附加元件[/B][CR][CR]管理您已安裝的附加元件\n從kodi.tv瀏覽並安裝附加元件[CR]修改附加元件設定"
 
 msgctxt "#31454"
 msgid "Banners"

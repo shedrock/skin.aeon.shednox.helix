@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -93,8 +93,8 @@ msgid "Extras"
 msgstr "Auka upplýsingar"
 
 msgctxt "#31021"
-msgid "Search XBMC for"
-msgstr "Leita í XBMC að"
+msgid "Search Kodi for"
+msgstr "Leita í Kodi að"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -461,8 +461,8 @@ msgid "Show timepanel"
 msgstr "Sýna tímaslá"
 
 msgctxt "#31149"
-msgid "This will shutdown XBMC! [CR]Are you sure?"
-msgstr "Loka XBMC! [CR]Ertu viss?"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
+msgstr "Loka Kodi! [CR]Ertu viss?"
 
 msgctxt "#31150"
 msgid "Landscape"
@@ -629,12 +629,12 @@ msgid "News"
 msgstr "Fréttir"
 
 msgctxt "#31200"
-msgid "XBMC Cinema"
-msgstr "XBMC Cinema"
+msgid "Kodi Cinema"
+msgstr "Kodi Cinema"
 
 msgctxt "#31201"
-msgid "XBMC Trailer"
-msgstr "XBMC sýnishorn"
+msgid "Kodi Trailer"
+msgstr "Kodi sýnishorn"
 
 msgctxt "#31202"
 msgid "DailyMotion"
@@ -1046,9 +1046,9 @@ msgstr "[B]STILLINGAR VEÐUR[/B][CR][CR]Velja veðurviðbætur · Ná í veðuru
 
 msgctxt "#31405"
 msgid ""
-"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and "
+"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and "
 "HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]STILLINGAR NET[/B][CR][CR]Aðgangsstýring á XBMC um UPnP og HTTP · Stilla samnýtingu skráa[CR]Stilla Internet aðgang"
+msgstr "[B]STILLINGAR NET[/B][CR][CR]Aðgangsstýring á Kodi um UPnP og HTTP · Stilla samnýtingu skráa[CR]Stilla Internet aðgang"
 
 msgctxt "#31406"
 msgid ""
@@ -1066,14 +1066,14 @@ msgstr "[B]STILLINGAR ÚTLIT[/B][CR][CR]Uppsetning Aeon Nox útlits · Sérsní�
 msgctxt "#31408"
 msgid ""
 "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for "
-"and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]STILLINGAR VIÐBÆTUR[/B][CR][CR]Sýsla með uppsettar viðbætur   Leita og setja upp viðbætur á xbmc.org[CR]Breyta stillingum fyrir viðbætur"
+"and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]STILLINGAR VIÐBÆTUR[/B][CR][CR]Sýsla með uppsettar viðbætur   Leita og setja upp viðbætur á kodi.tv[CR]Breyta stillingum fyrir viðbætur"
 
 msgctxt "#31409"
 msgid ""
 "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU "
-"usage[CR]Check XBMC revision number"
-msgstr "[B]YFIRSÝN KERFI[/B][CR][CR]Athuga vélbúnað   Fylgjast með örgjafa notkun[CR]Athuga útgáfunúmer XBMC"
+"usage[CR]Check Kodi revision number"
+msgstr "[B]YFIRSÝN KERFI[/B][CR][CR]Athuga vélbúnað   Fylgjast með örgjafa notkun[CR]Athuga útgáfunúmer Kodi"
 
 msgctxt "#31411"
 msgid "MANAGER"
@@ -1772,8 +1772,8 @@ msgid "Video Party Mode"
 msgstr "Myndefni partýhamur"
 
 msgctxt "#31839"
-msgid "Restart XBMC"
-msgstr "Endurræsa XBMC"
+msgid "Restart Kodi"
+msgstr "Endurræsa Kodi"
 
 msgctxt "#31840"
 msgid "Random Movie (Genre)"
@@ -1988,8 +1988,8 @@ msgid "Attention"
 msgstr "Athugið"
 
 msgctxt "#31904"
-msgid "ExtraFanArt is not natively supported by XBMC"
-msgstr "Auka aðdáendamyndir eru nú studdar af XBMC"
+msgid "ExtraFanArt is not natively supported by Kodi"
+msgstr "Auka aðdáendamyndir eru nú studdar af Kodi"
 
 msgctxt "#31905"
 msgid "Needs script.cinema.experience to be available"

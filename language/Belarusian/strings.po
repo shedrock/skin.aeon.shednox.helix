@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -65,8 +65,8 @@ msgid "Extras"
 msgstr "Extras"
 
 msgctxt "#31021"
-msgid "Search XBMC for"
-msgstr "Search XBMC for"
+msgid "Search Kodi for"
+msgstr "Search Kodi for"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -397,8 +397,8 @@ msgid "Show timepanel"
 msgstr "Show timepanel"
 
 msgctxt "#31149"
-msgid "This will shutdown XBMC! [CR]Are you sure?"
-msgstr "This will shutdown XBMC! [CR]Are you sure?"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
+msgstr "This will shutdown Kodi! [CR]Are you sure?"
 
 msgctxt "#31150"
 msgid "Landscape"
@@ -869,8 +869,8 @@ msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Choose a weather add-on · Set t
 msgstr "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Choose a weather add-on · Set three cities to collect weather information"
 
 msgctxt "#31405"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 
 msgctxt "#31406"
 msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
@@ -881,12 +881,12 @@ msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Aeon Nox skin · Customiz
 msgstr "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Aeon Nox skin · Customize the home menu · Adjust the skin colors[CR]Change skin backgrounds"
 
 msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from kodi.tv[CR]Modify Add-on settings"
 
 msgctxt "#31409"
-msgid "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check XBMC revision number"
-msgstr "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check XBMC revision number"
+msgid "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check Kodi revision number"
+msgstr "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check Kodi revision number"
 
 msgctxt "#31411"
 msgid "MANAGER"
@@ -1329,8 +1329,8 @@ msgid "Shutdown timer"
 msgstr "Таймер выключэньня"
 
 msgctxt "#31904"
-msgid "ExtraFanArt is not natively supported by XBMC"
-msgstr "ExtraFanArt is not natively supported by XBMC"
+msgid "ExtraFanArt is not natively supported by Kodi"
+msgstr "ExtraFanArt is not natively supported by Kodi"
 
 msgctxt "#31909"
 msgid "Bar Style"

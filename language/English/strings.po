@@ -1,4 +1,4 @@
-# KODI Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -92,8 +92,8 @@ msgid "Extras"
 msgstr "Extras"
 
 msgctxt "#31021"
-msgid "Search KODI for"
-msgstr "Search KODI for"
+msgid "Search Kodi for"
+msgstr "Search Kodi for"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -460,9 +460,9 @@ msgid "Show timepanel"
 msgstr "Show timepanel"
 
 msgctxt "#31149"
-msgid "This will shutdown KODI! [CR]Are you sure?"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
 
-msgstr "This will shutdown KODI! [CR]Are you sure?"
+msgstr "This will shutdown Kodi! [CR]Are you sure?"
 
 msgctxt "#31150"
 msgid "Landscape"
@@ -629,12 +629,12 @@ msgid "News"
 msgstr "News"
 
 msgctxt "#31200"
-msgid "KODI Cinema"
-msgstr "KODI Cinema"
+msgid "Kodi Cinema"
+msgstr "Kodi Cinema"
 
 msgctxt "#31201"
-msgid "KODI Trailer"
-msgstr "KODI Trailer"
+msgid "Kodi Trailer"
+msgstr "Kodi Trailer"
 
 msgctxt "#31202"
 msgid "DailyMotion"
@@ -1046,9 +1046,9 @@ msgstr "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Choose a weather add-on · Set 
 
 msgctxt "#31405"
 msgid ""
-"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of KODI via UPnP and "
+"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and "
 "HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of KODI via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 
 msgctxt "#31406"
 msgid ""
@@ -1072,8 +1072,8 @@ msgstr "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse 
 msgctxt "#31409"
 msgid ""
 "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU "
-"usage[CR]Check KODI revision number"
-msgstr "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check KODI revision number"
+"usage[CR]Check Kodi revision number"
+msgstr "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU usage[CR]Check Kodi revision number"
 
 msgctxt "#31997"
 msgid ""
@@ -1784,8 +1784,8 @@ msgid "Video Party Mode"
 msgstr "Video Party Mode"
 
 msgctxt "#31839"
-msgid "Restart KODI"
-msgstr "Restart KODI"
+msgid "Restart Kodi"
+msgstr "Restart Kodi"
 
 msgctxt "#31840"
 msgid "Random Movie (Genre)"

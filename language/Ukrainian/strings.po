@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -225,8 +225,8 @@ msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · C
 msgstr "[B]НАЛАШТУВАННЯ ПАРАМЕТРІВ ФОТО[/B][CR][CR]Параметри списку фото • Налаштування слайд-шоу"
 
 msgctxt "#31405"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]НАЛАШТУВАННЯ ПАРАМЕТРІВ СЛУЖБ[/B][CR][CR]Налаштування керування XBMC за UPnP і HTTP • Налаштування доступу до файлів[CR]Увімкнення Zeroconf • Налаштування AirPlay"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]НАЛАШТУВАННЯ ПАРАМЕТРІВ СЛУЖБ[/B][CR][CR]Налаштування керування Kodi за UPnP і HTTP • Налаштування доступу до файлів[CR]Увімкнення Zeroconf • Налаштування AirPlay"
 
 msgctxt "#31406"
 msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
