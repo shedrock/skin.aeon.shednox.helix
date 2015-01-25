@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -94,8 +94,8 @@ msgid "Extras"
 msgstr "Extras"
 
 msgctxt "#31021"
-msgid "Search XBMC for"
-msgstr "Buscar en XBMC"
+msgid "Search Kodi for"
+msgstr "Buscar en Kodi"
 
 msgctxt "#31022"
 msgid "Music - Files"
@@ -462,8 +462,8 @@ msgid "Show timepanel"
 msgstr "Mostrar panel de hora"
 
 msgctxt "#31149"
-msgid "This will shutdown XBMC! [CR]Are you sure?"
-msgstr "¡Se apagará XBMC! [CR]¿Está seguro?"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
+msgstr "¡Se apagará Kodi! [CR]¿Está seguro?"
 
 msgctxt "#31150"
 msgid "Landscape"
@@ -630,12 +630,12 @@ msgid "News"
 msgstr "s"
 
 msgctxt "#31200"
-msgid "XBMC Cinema"
-msgstr "XBMC Cinema"
+msgid "Kodi Cinema"
+msgstr "Kodi Cinema"
 
 msgctxt "#31201"
-msgid "XBMC Trailer"
-msgstr "XBMC Trailer"
+msgid "Kodi Trailer"
+msgstr "Kodi Trailer"
 
 msgctxt "#31202"
 msgid "DailyMotion"
@@ -1047,9 +1047,9 @@ msgstr "[B]CONFIGURAR EL CLIMA[/B][CR][CR]Elija un complemento de clima · Defin
 
 msgctxt "#31405"
 msgid ""
-"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and "
+"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and "
 "HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]CONFIGURAR LA RED[/B][CR][CR]Configurar el control de XBMC via UPnP y HTTP · Compartir archivos[CR]Definir opciones de acceso a internet"
+msgstr "[B]CONFIGURAR LA RED[/B][CR][CR]Configurar el control de Kodi via UPnP y HTTP · Compartir archivos[CR]Definir opciones de acceso a internet"
 
 msgctxt "#31406"
 msgid ""
@@ -1067,14 +1067,14 @@ msgstr "[B]CONFIGURAR PIEL[/B][CR][CR]Ajustes de piel Aeon Nox · Añada o elimi
 msgctxt "#31408"
 msgid ""
 "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for "
-"and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]CONFIGURAR ADD-ONS[/B][CR][CR]Gestionar los Add-ons instalados · Explorar e instalar Add-ons de xbmc.org[CR]Modificar la configuración de los Add-ons"
+"and install Add-ons from kodi.tv[CR]Modify Add-on settings"
+msgstr "[B]CONFIGURAR ADD-ONS[/B][CR][CR]Gestionar los Add-ons instalados · Explorar e instalar Add-ons de kodi.tv[CR]Modificar la configuración de los Add-ons"
 
 msgctxt "#31409"
 msgid ""
 "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU "
-"usage[CR]Check XBMC revision number"
-msgstr "[B]CONTROLAR EL SISTEMA[/B][CR][CR]Comprobar su hardware · Comprobar consumo de CPU[CR]Compruebe la versión de XBMC"
+"usage[CR]Check Kodi revision number"
+msgstr "[B]CONTROLAR EL SISTEMA[/B][CR][CR]Comprobar su hardware · Comprobar consumo de CPU[CR]Compruebe la versión de Kodi"
 
 msgctxt "#31411"
 msgid "MANAGER"
@@ -1773,8 +1773,8 @@ msgid "Video Party Mode"
 msgstr "Video Modo Fiesta"
 
 msgctxt "#31839"
-msgid "Restart XBMC"
-msgstr "Reiniciar XBMC"
+msgid "Restart Kodi"
+msgstr "Reiniciar Kodi"
 
 msgctxt "#31840"
 msgid "Random Movie (Genre)"
@@ -1989,8 +1989,8 @@ msgid "Attention"
 msgstr "Atención"
 
 msgctxt "#31904"
-msgid "ExtraFanArt is not natively supported by XBMC"
-msgstr "Extrafanart no es soportado de forma nativa por XBMC"
+msgid "ExtraFanArt is not natively supported by Kodi"
+msgstr "Extrafanart no es soportado de forma nativa por Kodi"
 
 msgctxt "#31905"
 msgid "Needs script.cinema.experience to be available"

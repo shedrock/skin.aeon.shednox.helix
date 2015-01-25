@@ -1,4 +1,4 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: Aeon Nox
 # Addon id: skin.aeon.nox
 # Addon Provider: Big_Noid|phil65
@@ -95,7 +95,7 @@ msgid "Extras"
 msgstr "Extras"
 
 msgctxt "#31021"
-msgid "Search XBMC for"
+msgid "Search Kodi for"
 msgstr "Durchsuche Kodi"
 
 msgctxt "#31022"
@@ -464,7 +464,7 @@ msgid "Show timepanel"
 msgstr "Zeitpanel zeigen"
 
 msgctxt "#31149"
-msgid "This will shutdown XBMC! [CR]Are you sure?"
+msgid "This will shutdown Kodi! [CR]Are you sure?"
 msgstr "Kodi wird beendet! [CR]Fortfahren?"
 
 msgctxt "#31150"
@@ -632,11 +632,11 @@ msgid "News"
 msgstr "Neuigkeiten"
 
 msgctxt "#31200"
-msgid "XBMC Cinema"
+msgid "Kodi Cinema"
 msgstr "Kodi Cinema"
 
 msgctxt "#31201"
-msgid "XBMC Trailer"
+msgid "Kodi Trailer"
 msgstr "Kodi Trailer"
 
 msgctxt "#31202"
@@ -1061,7 +1061,7 @@ msgstr ""
 
 msgctxt "#31405"
 msgid ""
-"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and "
+"[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and "
 "HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 msgstr ""
 "[B]KONFIGURIERE NETZWERK EINSTELLUNGEN[/B][CR][CR]Einrichten der Steuerung "
@@ -1090,15 +1090,15 @@ msgstr ""
 msgctxt "#31408"
 msgid ""
 "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for "
-"and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+"and install Add-ons from kodi.tv[CR]Modify Add-on settings"
 msgstr ""
 "[B]KONFIGURIERE ADD-ON EINSTELLUNGEN[/B][CR][CR]Add-On-Verwaltung[CR]Suche "
-"und installiere neue Add-Ons von kodi.org[CR]Ändere Add-On Einstellungen"
+"und installiere neue Add-Ons von kodi.tv[CR]Ändere Add-On Einstellungen"
 
 msgctxt "#31409"
 msgid ""
 "[B]MONITOR YOUR SYSTEM[/B][CR][CR]Check out your hardware · Monitor CPU "
-"usage[CR]Check XBMC revision number"
+"usage[CR]Check Kodi revision number"
 msgstr ""
 "[B]SYSTEMÜBERWACHUNG[/B][CR][CR]Überprüfe deine Hardware[CR]Überwache CPU-"
 "Last[CR]Kodi Version"
@@ -1836,7 +1836,7 @@ msgid "Video Party Mode"
 msgstr "Video Party Mode"
 
 msgctxt "#31839"
-msgid "Restart XBMC"
+msgid "Restart Kodi"
 msgstr "Kodi neu starten"
 
 msgctxt "#31840"
