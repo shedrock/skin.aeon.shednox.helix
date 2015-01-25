@@ -174,7 +174,7 @@
 				</control>
 					
 				<control type="label">
-				  <visible>Skin.HasSetting(DisableVideoThumb)</visible>
+				<visible>Skin.HasSetting(DisableVideoThumb)</visible>
 					<left>130</left>
 					<top>450</top>
 					<width>300</width>
