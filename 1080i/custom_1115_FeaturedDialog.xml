@@ -1236,13 +1236,13 @@
                                     <width>376</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Icon]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Icon]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>376</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">
@@ -1282,13 +1282,13 @@
                                     <width>376</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Icon]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Icon]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>376</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">
@@ -1486,13 +1486,13 @@
                                     <width>720</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Thumb]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Thumb]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>720</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">
@@ -1532,13 +1532,13 @@
                                     <width>720</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Thumb]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Thumb]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>720</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">
@@ -1734,13 +1734,13 @@
                                     <width>720</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Thumb]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Thumb]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>720</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">
@@ -1780,13 +1780,13 @@
                                     <width>720</width>
                                     <height>140</height>
                                     <aspectratio aligny="center">scale</aspectratio>
-                                    <texture fallback="XBMC_Logo.png">$INFO[ListItem.Thumb]</texture>
+                                    <texture fallback="KODI_Logo.png">$INFO[ListItem.Thumb]</texture>
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="image">
                                     <width>720</width>
                                     <height>140</height>
-                                    <texture fallback="XBMC_Logo.png">common/bgcolor.png</texture>
+                                    <texture fallback="KODI_Logo.png">common/bgcolor.png</texture>
                                     <colordiffuse>60FFFFFF</colordiffuse>
                                 </control>
                                 <control type="group">

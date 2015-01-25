@@ -73,18 +73,18 @@
 				<top>84</top>
 				<include>Neon_Topbar</include>
 			</control>
-			<control type="label">
-				<left>510</left>
-				<top>18</top>
-				<width>900</width>
-				<height>68</height>
-				<align>center</align>
-				<aligny>bottom</aligny>
-				<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</label>
-				<font>Font_ShowcaseMainLabel2_Caps</font>
-				<scroll>true</scroll>
-				<animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
-			</control>
+			 <control type="label">
+                <left>520</left>
+                <top>18</top>
+                <width>900</width>
+                <height>68</height>
+                <align>center</align>
+                <aligny>bottom</aligny>
+                <label>$INFO[VideoPlayer.Title]</label>
+                <font>Font_ShowcaseMainLabel2_Caps</font>
+                <scroll>true</scroll>
+                <animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
+            </control>
 			<control type="label">
 				<left>510</left>
 				<top>78</top>
@@ -97,13 +97,13 @@
 				<textcolor>$VAR[SubTitleColorVar]</textcolor>
 				<scroll>true</scroll>
 			</control>
-			<control type="group">
+					<control type="group">
 				<visible>VideoPlayer.Content(movies) + Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>459</top>
+				<top>439</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -117,11 +117,12 @@
 			</control>
 			<control type="group">
 				<visible>VideoPlayer.Content(movies) + Skin.HasSetting(Plotinfoscreen)</visible>
-				
-				<control type="label">
-				<visible>!Skin.HasSetting(DisableVideoThumb)</visible>
-					<left>330</left>
-					<top>470</top>
+			
+
+			<control type="label">
+				<visible>!Skin.HasSetting(DisableVideoThumb) + Skin.HasSetting(Discinfoscreen)</visible>
+					<left>440</left>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -129,12 +130,13 @@
 					<textcolor>FF017196</textcolor>
 					<label>PLOT</label>
 				</control>
+				 
 				<control type="textbox">
-					<visible>!Skin.HasSetting(DisableVideoThumb)</visible>
+				<visible>!Skin.HasSetting(DisableVideoThumb) + Skin.HasSetting(Discinfoscreen)</visible>
 					<description>Plot</description>
-					<left>330</left>
-					<top>520</top>
-					<width>950</width>
+					<left>440</left>
+					<top>500</top>
+					<width>840</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
 					<textcolor>FFE5E5E5</textcolor>
@@ -143,11 +145,38 @@
 					<wrapmultiline>true</wrapmultiline>
 					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
 				</control>
-				
+		
+			<control type="label">
+				<visible>!Skin.HasSetting(DisableVideoThumb) + !Skin.HasSetting(Discinfoscreen)</visible>
+					<left>380</left>
+					<top>450</top>
+					<width>300</width>
+					<height>25</height>
+					<align>left</align>
+					<font>Font_Bold28</font>
+					<textcolor>FF017196</textcolor>
+					<label>PLOT</label>
+				</control>
+				 
+				<control type="textbox">
+				<visible>!Skin.HasSetting(DisableVideoThumb) + !Skin.HasSetting(Discinfoscreen)</visible>
+					<description>Plot</description>
+					<left>380</left>
+					<top>500</top>
+					<width>900</width>
+					<height>355</height>
+					<font>Font_Reg28_2</font>
+					<textcolor>FFE5E5E5</textcolor>
+					<align>justify</align>
+					<label fallback="31203">$INFO[VideoPlayer.Plot]</label>
+					<wrapmultiline>true</wrapmultiline>
+					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
+				</control>
+					
 				<control type="label">
 				<visible>Skin.HasSetting(DisableVideoThumb)</visible>
 					<left>130</left>
-					<top>470</top>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -159,7 +188,7 @@
 					<visible>Skin.HasSetting(DisableVideoThumb)</visible>
 					<description>Plot</description>
 					<left>130</left>
-					<top>520</top>
+					<top>500</top>
 					<width>950</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -171,7 +200,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>470</top>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -182,7 +211,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>520</top>
+					<top>500</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -193,13 +222,13 @@
 					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
 				</control>
 			</control>
-			<control type="group">
+				<control type="group">
 				<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>459</top>
+				<top>439</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -211,11 +240,12 @@
 					<animation effect="fade" end="5" condition="true">Conditional</animation>
 				</control>
 			</control>
+			
 			<control type="group">
 				<visible>VideoPlayer.Content(episodes) + Skin.HasSetting(Plotinfoscreen)</visible>
 				<control type="label">
-					<left>330</left>
-					<top>470</top>
+					<left>380</left>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -225,9 +255,9 @@
 				</control>
 				<control type="textbox">
 					<description>Plot</description>
-					<left>330</left>
-					<top>520</top>
-					<width>950</width>
+					<left>380</left>
+					<top>500</top>
+					<width>900</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
 					<textcolor>FFE5E5E5</textcolor>
@@ -238,7 +268,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>470</top>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -249,7 +279,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>520</top>
+					<top>500</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -263,10 +293,10 @@
 			<control type="group">
 				<visible>VideoPlayer.Content(files) + Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>459</top>
+				<top>439</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -281,8 +311,8 @@
 			<control type="group">
 				<visible>VideoPlayer.Content(files) + Skin.HasSetting(Plotinfoscreen)</visible>
 				<control type="label">
-					<left>330</left>
-					<top>470</top>
+					<left>380</left>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -292,9 +322,9 @@
 				</control>
 				<control type="textbox">
 					<description>Plot</description>
-					<left>330</left>
-					<top>520</top>
-					<width>950</width>
+					<left>380</left>
+					<top>500</top>
+					<width>900</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
 					<textcolor>FFE5E5E5</textcolor>
@@ -305,7 +335,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>470</top>
+					<top>450</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -316,7 +346,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>520</top>
+					<top>500</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>

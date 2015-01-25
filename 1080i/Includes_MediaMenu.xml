@@ -677,7 +677,7 @@
             <visible>!Container.Content()</visible>
             <include>Objects_MediaMenuButtonIcons</include>
         </control>
-        <control type="radiobutton" id="2256">
+         <control type="radiobutton" id="2256">
             <label>587</label>
             <visible>Container.CanFilterAdvanced</visible>
             <selected>Container.Filtered</selected>

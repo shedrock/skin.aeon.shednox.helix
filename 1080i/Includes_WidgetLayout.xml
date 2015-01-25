@@ -2826,7 +2826,7 @@
 					</control>			
 				</control> 							
                 <control type="grouplist" id="5020">
-                    <left>465</left>
+                    <left>483</left>
                     <top>-130</top>
                     <width>1373</width>
                     <height>80</height>
@@ -6886,7 +6886,7 @@
             <width>512</width>
             <height>340</height>
             <aspectratio align="center">keep</aspectratio>
-            <texture background="true" fallback="XBMC_Logo.png">$INFO[ListItem.Property(Logo)]</texture>
+            <texture background="true" fallback="KODI_Logo.png">$INFO[ListItem.Property(Logo)]</texture>
             <visible>!IsEmpty(ListItem.Property(Logo))</visible>
         </control>
         <control type="image">
@@ -6895,7 +6895,7 @@
             <width>512</width>
             <height>340</height>
             <aspectratio align="center">keep</aspectratio>
-            <texture background="true" fallback="XBMC_Logo.png">$INFO[ListItem.Property(Fanart)]</texture>
+            <texture background="true" fallback="KODI_Logo.png">$INFO[ListItem.Property(Fanart)]</texture>
             <visible>IsEmpty(ListItem.Property(Logo))</visible>
         </control>
         <control type="label">
@@ -6928,7 +6928,7 @@
             <width>512</width>
             <height>340</height>
             <aspectratio align="center">keep</aspectratio>
-            <texture background="true" fallback="XBMC_Logo.png">$INFO[ListItem.Property(Logo)]</texture>
+            <texture background="true" fallback="KODI_Logo.png">$INFO[ListItem.Property(Logo)]</texture>
             <visible>IsEmpty(ListItem.Property(ClearArt)) + !IsEmpty(ListItem.Property(Logo))</visible>
         </control>
         <control type="image">
@@ -6946,7 +6946,7 @@
             <width>512</width>
             <height>340</height>
             <aspectratio align="center">keep</aspectratio>
-            <texture background="true" fallback="XBMC_Logo.png">$INFO[ListItem.Property(Fanart)]</texture>
+            <texture background="true" fallback="KODI_Logo.png">$INFO[ListItem.Property(Fanart)]</texture>
             <visible>IsEmpty(ListItem.Property(Logo)) + IsEmpty(ListItem.Property(ClearArt))</visible>
         </control>
         <control type="label">

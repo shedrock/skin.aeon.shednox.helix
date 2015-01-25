@@ -32,7 +32,7 @@
             <width>360</width>
             <height>178</height>
             <aspectratio>keep</aspectratio>
-            <texture>XBMC_Logo.png</texture>
+            <texture>KODI_Logo.png</texture>
             <colordiffuse>white</colordiffuse>
         </control>
         <control type="group">

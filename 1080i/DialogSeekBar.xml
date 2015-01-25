@@ -15,10 +15,10 @@
 			<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Show_Info_Paused)</visible>
 			<control type="group">
 			<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>329</top>
+				<top>309</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -34,8 +34,9 @@
 				<visible>Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Show_Info_Paused)</visible>
 				<control type="label">
-					<left>330</left>
-					<top>340</top>
+					<visible>!Skin.HasSetting(DisableVideoThumb) + Skin.HasSetting(Discinfoscreen)</visible>
+					<left>440</left>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -44,9 +45,64 @@
 					<label>PLOT</label>
 				</control>
 				<control type="textbox">
+					<visible>!Skin.HasSetting(DisableVideoThumb) + Skin.HasSetting(Discinfoscreen)</visible>
 					<description>Plot</description>
-					<left>330</left>
-					<top>390</top>
+					<left>440</left>
+					<top>370</top>
+					<width>840</width>
+					<height>355</height>
+					<font>Font_Reg28_2</font>
+					<textcolor>FFE5E5E5</textcolor>
+					<align>justify</align>
+					<label fallback="31203">$INFO[VideoPlayer.Plot]</label>
+					<wrapmultiline>true</wrapmultiline>
+					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
+				</control>
+				
+					
+			<control type="label">
+				<visible>!Skin.HasSetting(DisableVideoThumb) + !Skin.HasSetting(Discinfoscreen)</visible>
+					<left>380</left>
+					<top>320</top>
+					<width>300</width>
+					<height>25</height>
+					<align>left</align>
+					<font>Font_Bold28</font>
+					<textcolor>FF017196</textcolor>
+					<label>PLOT</label>
+				</control>
+				 
+				<control type="textbox">
+				<visible>!Skin.HasSetting(DisableVideoThumb) + !Skin.HasSetting(Discinfoscreen)</visible>
+					<description>Plot</description>
+					<left>380</left>
+					<top>370</top>
+					<width>900</width>
+					<height>355</height>
+					<font>Font_Reg28_2</font>
+					<textcolor>FFE5E5E5</textcolor>
+					<align>justify</align>
+					<label fallback="31203">$INFO[VideoPlayer.Plot]</label>
+					<wrapmultiline>true</wrapmultiline>
+					<autoscroll delay="20000" time="4000" repeat="15000">true</autoscroll>
+				</control>
+				
+				<control type="label">
+				<visible>Skin.HasSetting(DisableVideoThumb)</visible>
+					<left>130</left>
+					<top>320</top>
+					<width>300</width>
+					<height>25</height>
+					<align>left</align>
+					<font>Font_Bold28</font>
+					<textcolor>FF017196</textcolor>
+					<label>PLOT</label>
+				</control>
+				<control type="textbox">
+					<visible>Skin.HasSetting(DisableVideoThumb)</visible>
+					<description>Plot</description>
+					<left>130</left>
+					<top>370</top>
 					<width>950</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -58,7 +114,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>340</top>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -69,7 +125,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>390</top>
+					<top>370</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -81,17 +137,17 @@
 				</control>
 			</control>
 		</control>
-		<control type="group" id="10125">
+			<control type="group" id="10125">
 			<left>0</left>
 			<top>130</top>
 			<visible>Skin.HasSetting(Plotinfoscreen)</visible>
 			<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Show_Info_Paused)</visible>
 			<control type="group">
 			<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>329</top>
+				<top>309</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -107,8 +163,8 @@
 				<visible>Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Show_Info_Paused)</visible>
 				<control type="label">
-					<left>330</left>
-					<top>340</top>
+					<left>380</left>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -118,9 +174,9 @@
 				</control>
 				<control type="textbox">
 					<description>Plot</description>
-					<left>330</left>
-					<top>390</top>
-					<width>950</width>
+					<left>380</left>
+					<top>370</top>
+					<width>900</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
 					<textcolor>FFE5E5E5</textcolor>
@@ -131,7 +187,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>340</top>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -142,7 +198,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>390</top>
+					<top>370</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -161,10 +217,10 @@
 			<visible>Player.Paused + VideoPlayer.Content(files) + Skin.HasSetting(Show_Info_Paused)</visible>
 			<control type="group">
 			<visible>!Skin.HasSetting(DarkOverlayinfoscreen)</visible>
-				<top>329</top>
+				<top>309</top>
 				<control type="image" id="1">
 					<width>1919</width>
-					<height>440</height>
+					<height>460</height>
 					<texture border="8">panels/panel.png</texture>
 				</control>
 				<control type="image" id="1">
@@ -180,8 +236,8 @@
 				<visible>Skin.HasSetting(Plotinfoscreen)</visible>
 				<visible>Player.Paused + VideoPlayer.Content(files) + Skin.HasSetting(Show_Info_Paused)</visible>
 				<control type="label">
-					<left>330</left>
-					<top>340</top>
+					<left>380</left>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -191,9 +247,9 @@
 				</control>
 				<control type="textbox">
 					<description>Plot</description>
-					<left>330</left>
-					<top>390</top>
-					<width>950</width>
+					<left>380</left>
+					<top>370</top>
+					<width>900</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
 					<textcolor>FFE5E5E5</textcolor>
@@ -204,7 +260,7 @@
 				</control>
 				<control type="label">
 					<left>1350</left>
-					<top>340</top>
+					<top>320</top>
 					<width>300</width>
 					<height>25</height>
 					<align>left</align>
@@ -215,7 +271,7 @@
 				<control type="textbox">
 					<description>Cast</description>
 					<left>1350</left>
-					<top>390</top>
+					<top>370</top>
 					<width>525</width>
 					<height>355</height>
 					<font>Font_Reg28_2</font>
@@ -627,18 +683,18 @@
 					<top>84</top>
 					<include>Neon_Topbar</include>
 				</control>
-				<control type="label">
-					<left>510</left>
-					<top>18</top>
-					<width>900</width>
-					<height>68</height>
-					<align>center</align>
-					<aligny>bottom</aligny>
-					<font>Font_ShowcaseMainLabel2_Caps</font>
-					<label>$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)]</label>
-					<scroll>true</scroll>
-					<animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
-				</control>
+				  <control type="label">
+                    <left>510</left>
+                    <top>18</top>
+                    <width>900</width>
+                    <height>68</height>
+                    <align>center</align>
+                    <aligny>bottom</aligny>
+                    <font>Font_ShowcaseMainLabel2_Caps</font>
+                    <label>$INFO[VideoPlayer.Title]</label>
+                    <scroll>true</scroll>
+                    <animation effect="slide" start="0,15" end="0,15" time="0" condition="[IsEmpty(Player.ChapterName) | SubString(Player.ChapterName,0,left)] + [[IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | [IsEmpty(VideoPlayer.Artist) + VideoPlayer.Content(musicvideos)]] | VideoPlayer.Content(files)">Conditional</animation>
+                </control>
 				<control type="label">
 					<left>510</left>
 					<top>78</top>

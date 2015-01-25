@@ -79,7 +79,7 @@
             <width>512</width>
             <height>180</height>
             <aspectratio>keep</aspectratio>
-            <texture>XBMC_Logo.png</texture>
+            <texture>KODI_Logo.png</texture>
             <colordiffuse>white</colordiffuse>
         </control>
         <control type="videowindow">

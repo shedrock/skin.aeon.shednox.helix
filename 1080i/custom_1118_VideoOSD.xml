@@ -86,7 +86,7 @@
 				<visible>!Skin.HasSetting(DisableVideoThumb)</visible>
 			</control>
 			<control type="radiobutton" id="460">
-				<label>- DiscArt on info and paused screens</label>
+				<label>- Movie DiscArt on info and paused screens</label>
 				<include>Objects_CommonSettingsButton</include>
 				<onclick>Skin.ToggleSetting(Discinfoscreen)</onclick>
 				<selected>Skin.HasSetting(Discinfoscreen)</selected>
@@ -103,6 +103,7 @@
 				<include>Objects_CommonSettingsButton</include>
 				<onclick>Skin.ToggleSetting(DarkOverlayinfoscreen)</onclick>
 				<selected>Skin.HasSetting(DarkOverlayinfoscreen)</selected>
+				<visible>Skin.HasSetting(Plotinfoscreen)</visible>
 			</control>
 			<control type="radiobutton" id="456">
 				<label>31640</label>
