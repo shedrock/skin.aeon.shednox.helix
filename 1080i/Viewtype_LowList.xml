@@ -61,7 +61,7 @@
                         <animation effect="slide" end="-655,0" time="120" condition="!Control.IsVisible(9900) + !Control.HasFocus(7002)">Conditional</animation>
                         <control type="image">
                             <top>710</top>
-                            <width>1920</width>
+                            <width>2120</width>
                             <height>651</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture>views/lowlist_panelback.png</texture>

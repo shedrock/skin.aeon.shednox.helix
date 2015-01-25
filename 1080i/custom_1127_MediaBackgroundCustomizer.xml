@@ -29,7 +29,7 @@
                 <left>356</left>
                 <top>200</top>
                 <width>510</width>
-                <height>620</height>
+                <height>625</height>
                 <texture border="50">osd/osd_settings_back_glow.png</texture>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <visible>!Skin.HasSetting(DisableGlowbar)</visible>
@@ -40,7 +40,7 @@
                 <left>356</left>
                 <top>200</top>
                 <width>510</width>
-                <height>620</height>
+                <height>625</height>
                 <texture border="50">osd/osd_settings_back.png</texture>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             </control>
@@ -64,7 +64,7 @@
                 <left>375</left>
                 <top>292</top>
                 <width>1172</width>
-                <height>540</height>
+                <height>450</height>
                 <aligny>center</aligny>
                 <pagecontrol>60</pagecontrol>
                 <onleft>60</onleft>
@@ -162,6 +162,13 @@
                     <usealttexture>Skin.HasSetting(altoverlayinfowall)</usealttexture>
                     <visible>stringcompare(Window(home).Property(actualViewtype),Episode)</visible>
                 </control>
+				<control type="radiobutton" id="1699">
+					<label>Movie Set Fanart</label>
+					<include>Objects_MediaBackgroundsButton</include>
+					<onclick>Skin.ToggleSetting(RotateFanart)</onclick>
+					<selected>Skin.HasSetting(RotateFanart)</selected>
+					<visible>skin.hassetting(backendmode) + [Container.Content(tags) | Container.Content(directors) | Container.Content(actors) | Container.Content(genres) | Container.Content(studios) | Container.Content(countries) | Container.Content(years) | Container.Content(sets) | Container.Content(movies)]</visible>
+				</control>
                 <control type="radiobutton" id="1679">
                     <label>31825</label>
                     <include>Objects_MediaBackgroundsButton</include>

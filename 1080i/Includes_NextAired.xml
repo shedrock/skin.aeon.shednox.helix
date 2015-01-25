@@ -301,7 +301,7 @@
         <width>150</width>
         <height>58</height>
         <aspectratio>keep</aspectratio>
-        <texture background="true" fallback="XBMC_Logo.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
+        <texture background="true" fallback="KODI_Logo.png">$INFO[ListItem.Property(Art(clearlogo))]</texture>
         <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),2)</visible>
     </include>
     <include name="NextAiredThumbVars">

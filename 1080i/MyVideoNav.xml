@@ -76,6 +76,16 @@
 				<animation effect="slide" start="-15,-15" end="15,15" time="6000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
 				<animation effect="fade" start="100" end="50" time="640">Hidden</animation>
 				<visible>!Control.IsVisible(4200) + !Control.IsVisible(4201)</visible>
+				<visible>Skin.HasSetting(genrethumbs)</visible>
+			</control>
+			<control type="multiimage">
+				<imagepath background="true" fallback="special://skin/backgrounds/videos/">$VAR[VideoFanartVar1]</imagepath>
+				<fadetime>FanartCrossfadeTime</fadetime>
+				<animation effect="zoom" start="110" end="130" center="auto" time="12000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
+				<animation effect="slide" start="-15,-15" end="15,15" time="6000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
+				<animation effect="fade" start="100" end="50" time="640">Hidden</animation>
+				<visible>!Control.IsVisible(4200) + !Control.IsVisible(4201)</visible>
+					<visible>!Skin.HasSetting(genrethumbs)</visible>
 			</control>
 			<control type="multiimage" id="4201">
 				<imagepath background="true" fallback="special://skin/backgrounds/movies/">$VAR[MovieFanartVar]</imagepath>
@@ -83,7 +93,7 @@
 				<animation effect="zoom" start="110" end="130" center="auto" time="12000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
 				<animation effect="slide" start="-15,-15" end="15,15" time="6000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
 				<animation effect="fade" start="100" end="50" time="640">Hidden</animation>
-				<visible>Container.Content(movies) | Container.Content(sets)</visible>
+				<visible>[Container.Content(movies) + Skin.HasSetting(RotateFanart)] | [Container.Content(sets) + Skin.HasSetting(RotateFanart)]</visible>
 			</control>
 			<control type="multiimage" id="4200">
 				<imagepath background="true" fallback="special://skin/backgrounds/tvshows/">$VAR[TVShowFanartVar]</imagepath>
@@ -110,7 +120,7 @@
 				<animation effect="slide" start="-15,-15" end="15,15" time="6000" pulse="true" condition="Skin.HasSetting(animatedbg)">Conditional</animation>
 			</control>
 			<include condition="skin.hassetting(backendmode)">InteractiveNodeCases</include>
-			<include condition="skin.hassetting(backendmode)">NodeFadeLabels</include>
+			<include condition="skin.HasSetting(backendmode) + Skin.HasSetting(RotateFanart)">NodeFadeLabels</include>
 		</control>
 		<!-- END Add Extra Fanart -->
 		<!-- view id = 516-->
@@ -311,7 +321,7 @@
 					<fadetime>200</fadetime>
 					<animation effect="fade" delay="240" time="240" reversible="false">Hidden</animation>
 					<visible>Control.IsVisible(57) | Control.IsVisible(508) | [Control.IsVisible(500) + !StringCompare(Container.FolderName,youtube)] | Control.IsVisible(501)</visible>
-					<visible>[[Skin.HasSetting(movielogosfloor) + Container.Content(movies)] | [Skin.HasSetting(tvshowlogosfloor) + Container.Content(tvshows)] | [Skin.HasSetting(movielogosfloor) + Container.Content(sets)]]</visible>
+				    <visible>[[Skin.HasSetting(movielogosfloor) + Container.Content(movies)] | [Skin.HasSetting(tvshowlogosfloor) + Container.Content(tvshows)] | [Skin.HasSetting(movielogosfloor) + Container.Content(sets)]]</visible>
 					<visible>[!Skin.HasSetting(NoFloorLabelMovies) + Container.Content(movies)] | [Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(sets) + !Skin.HasSetting(NoFloorLabelMovies)]</visible>
 				</control>
 			</control>

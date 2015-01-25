@@ -8,6 +8,12 @@
 			<size>12</size>
 		</font>
 		<font>
+			<name>Hand_34</name>
+			<filename>fafers.ttf</filename>
+			<size>34</size>
+		</font>
+
+		<font>
 			<name>WebViewer-font12</name>
 			<filename>WebViewer-DejaVuSansMono.ttf</filename>
 			<size>16</size>
@@ -3172,7 +3178,7 @@
 			<filename>arial.ttf</filename>
 			<size>24</size>
 		</font>	 
-        <font>
+		<font>
 			<name>Font_Bold24</name>
 			<filename>arial.ttf</filename>
 			<size>17</size>

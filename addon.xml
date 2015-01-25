@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon
-  id="skin.aeon.shednox.helix"
-  version="1.1b"
-  name="Aeon Shednox Helix"
-  provider-name="Big_Noid|phil65">
+<addon id="skin.aeon.shednox.helix" version="2.0" name="Aeon Shednox Helix" provider-name="Shednox|Brimstone">
   <requires>
     <import addon="xbmc.gui" version="5.0.0"/>
-    <import addon="script.favourites" version="3.2.4"/>
+    <import addon="script.favourites" version="6.0.1"/>
     <import addon="script.playlists" version="0.1.1"/>
-    <import addon="script.tv.show.next.aired" version="5.0.7"/>
-    <import addon="script.artwork.downloader" version="12.0.23"/>
-    <import addon="script.artistslideshow" version="1.5.9"/>
+    <import addon="script.tv.show.next.aired" version="6.0.12"/>
+    <import addon="script.artwork.downloader" version="12.0.29"/>
+    <import addon="script.artistslideshow" version="1.8.2"/>
     <import addon="script.globalsearch" version="2.0.8"/>
 	<import addon="script.playalbum" version="0.0.6"/>    
-	<import addon="script.randomandlastitems" version="2.0.0"/>
+	<import addon="script.randomandlastitems" version="2.2.0"/>
     <import addon="service.skin.widgets" version="0.0.27"/>
   </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="Textures.xbt"
-    debugging="false"
-    effectslowdown="1.0">
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -102,7 +94,7 @@
     <disclaimer lang="zh">Aeon Nox是在djh_的Aeon皮肤设计思路上发展而来。许多纹理图片来源于Aeon及其修改版。感谢这些皮肤和修改版的开发者。</disclaimer>
     <platform>all</platform>
     <source>https://github.com/WarLion/skin.Aeon-Nox-4.1.9</source>
-    <forum>http://forum.xbmc.org/showthread.php?tid=185290</forum>
-    <website>https://github.com/WarLion/skin.Aeon-Nox-4.1.9</website>
+    <forum>http://forum.kodi.tv/showthread.php?tid=209412</forum>
+    <website>https://github.com/shedrock/skin.aeon.shednox.helix</website>
   </extension>
 </addon>

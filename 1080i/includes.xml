@@ -159,26 +159,25 @@
 		<radioleft>308</radioleft>
 	</include>
 	<include name="Objects_MediaMenuButtonIcons">
-        <width>420</width>
-        <height>95</height>
-        <textoffsetx>82</textoffsetx>
-        <textoffsety>28</textoffsety>
-        <aligny>top</aligny>
-        <texturefocus border="8">views/tripanel/listselect_fo.png</texturefocus>
-        <texturenofocus border="3">settings/listselect_nf2.png</texturenofocus>
-        <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <alttexturenofocus>settings/listselect_nf2.png</alttexturenofocus>
-        <font>Font_Reg29</font>
-        <textcolor>grey2</textcolor>
-        <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
-        <focusedcolor>white6</focusedcolor>
-        <onleft condition="Skin.HasSetting(quicknav)">ActivateWindow(1121)</onleft>
-
-        <onleft>ClearProperty(viewtypeselect,home)</onleft>
-        <onleft>ActivateWindow(1121)</onleft>
-        <radiowidth>45</radiowidth>
-        <radioposx>8</radioposx>
- </include> 
+		<width>420</width>
+		<height>95</height>
+		<textoffsetx>82</textoffsetx>
+		<textoffsety>28</textoffsety>
+		<aligny>top</aligny>
+		<texturefocus border="8">views/tripanel/listselect_fo.png</texturefocus>
+		<texturenofocus border="3">settings/listselect_nf2.png</texturenofocus>
+		<alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
+		<alttexturenofocus>settings/listselect_nf2.png</alttexturenofocus>
+		<font>Font_Reg29</font>
+		<textcolor>grey2</textcolor>
+		<colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+		<focusedcolor>white6</focusedcolor>
+		<onleft condition="Skin.HasSetting(quicknav)">ActivateWindow(1121)</onleft>
+		<onleft>ClearProperty(viewtypeselect,home)</onleft>
+		<onleft>ActivateWindow(1121)</onleft>
+		<radiowidth>98</radiowidth>
+		<radioleft>308</radioleft>
+	</include>
 	<include name="Objects_MediaMenuButtonAround">
 		<width>400</width>
 		<height>60</height>
@@ -447,7 +446,7 @@
 			<width>360</width>
 			<height>178</height>
 			<aspectratio>keep</aspectratio>
-			<texture>XBMC_Logo.png</texture>
+			<texture>KODI_Logo.png</texture>
 			<colordiffuse>white</colordiffuse>
 		</control>
 		<control type="image">
@@ -483,7 +482,7 @@
 			<width>400</width>
 			<height>158</height>
 			<aspectratio>keep</aspectratio>
-			<texture>XBMC_Logo.png</texture>
+			<texture>KODI_Logo.png</texture>
 			<colordiffuse>white</colordiffuse>
 		</control>
 		<control type="image">
@@ -1272,7 +1271,7 @@
 			</animation>
 			<control type="image">
 				<left>15</left>
-				<top>-522</top>
+				<top>-542</top>
 				<width>345</width>
 				<height>234</height>
 				<aspectratio aligny="top">keep</aspectratio>
@@ -1354,334 +1353,249 @@
 					<control type="group">
 						<visible>!Skin.HasSetting(CaseVideoThumb)</visible>
 						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>14</left>
-							<top>495</top>
-							<width>274</width>
-							<height>408</height>
-							<texture>thumbs/thumb_glass_shadow.png</texture>
+							<left>17</left>
+							<top>478</top>
+							<width>277</width>
+							<height>422</height>
+							<texture>thumbs/player_thumbs/thumb_glass_shadow.png</texture>
 							<visible>!Skin.HasSetting(DisableGlowbar)</visible>
 							<include>PanelGlowFade</include>
 							<colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
 							<include>Animation_VisibleChange400</include>
-							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
+						</control>
+						<control type="image">
+							<left>108</left>
+							<top>545</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="!Player.Paused">Conditional</animation>
+							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
+						</control>
+						<control type="image">
+							<left>108</left>
+							<top>545</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
 						</control>
 						<control type="image">
 							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<top>494</top>
+							<width>260</width>
+							<height>389</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+							<texture background="true" diffuse="thumbs/player_thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 						<control type="image">
 							<left>6</left>
-							<top>495</top>
-							<width>290</width>
-							<height>413</height>
-							<texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
-							<bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
-							<bordersize>16</bordersize>
+							<top>475</top>
+							<width>299</width>
+							<height>427</height>
+							<texture diffuse="thumbs/player_thumbs/movieposter_mask.png">thumbs/player_thumbs/thumb_glass_noreflect.png</texture>
+							<bordertexture border="19.5">thumbs/player_thumbs/poster_shadow.png</bordertexture>
+							<bordersize>19</bordersize>
 							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 					</control>
-					<!-- MikeBZH44 Start : Default view for MusicVideos and Episodes, ddd Discart and resolution case for Movies -->
-					<control type="group">
+						<control type="group">
 						<visible>Skin.HasSetting(CaseVideoThumb)</visible>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<left>23</left>
+							<top>516</top>
+							<width>260</width>
+							<height>371</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+								<texture background="true" diffuse="thumbs/thumb_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 						<control type="image">
-							<left>3</left>
-							<top>495</top>
-							<width>290</width>
-							<height>413</height>
-							<texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
-							<bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
-							<bordersize>16</bordersize>
-							<visible>VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
+							<left>108</left>
+							<top>557</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
 							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
+							<left>108</left>
+							<top>557</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
 							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<left>23</left>
+							<top>516</top>
+							<width>260</width>
+							<height>371</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+							<texture background="true" diffuse="thumbs/thumb_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(movies)</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
 							<visible>VideoPlayer.Content(movies) + ![SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>600</top>
-							<width>348</width>
-							<height>479</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.HDTV.) | SubString(Player.Filename,.hdtv.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.HDDVD.) | SubString(Player.Filename,.hddvd.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, HDDVD.) | SubString(Player.Filename, hddvd.)]</visible>
+						</control>
+					
+						<control type="image">
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.WEBDL.) | SubString(Player.Filename,.webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, WEBDL.) | SubString(Player.Filename, webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.WEB-DL.) | SubString(Player.Filename,.web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, WEB-DL.) | SubString(Player.Filename, web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
 							<visible>VideoPlayer.Content(episodes) + ![SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.HDTV.) | SubString(Player.Filename,.hdtv.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.HDDVD.) | SubString(Player.Filename,.hddvd.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, HDDVD.) | SubString(Player.Filename, hddvd.)]</visible>
+						</control>
+					
+						<control type="image">
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.WEBDL.) | SubString(Player.Filename,.webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, WEBDL.) | SubString(Player.Filename, webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.WEB-DL.) | SubString(Player.Filename,.web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, WEB-DL.) | SubString(Player.Filename, web-dl.)]</visible>
 						</control>
 					</control>
-					<!-- MikeBZH44 End -->
 				</control>
 				<control type="group">
 					<visible>!Skin.HasSetting(Plotinfoscreen)</visible>
@@ -1689,74 +1603,11 @@
 					<control type="group">
 						<visible>!Skin.HasSetting(CaseVideoThumb)</visible>
 						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>33</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>14</left>
-							<top>495</top>
-							<width>274</width>
-							<height>408</height>
-							<texture>thumbs/thumb_glass_shadow.png</texture>
+							<left>17</left>
+							<top>478</top>
+							<width>277</width>
+							<height>422</height>
+							<texture>thumbs/player_thumbs/thumb_glass_shadow.png</texture>
 							<visible>!Skin.HasSetting(DisableGlowbar)</visible>
 							<include>PanelGlowFade</include>
 							<colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
@@ -1764,262 +1615,240 @@
 							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 						<control type="image">
+							<left>108</left>
+							<top>545</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
+							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
+						</control>
+						<control type="image">
+							<left>108</left>
+							<top>545</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
+						</control>
+						<control type="image">
 							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<top>494</top>
+							<width>260</width>
+							<height>389</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+							<texture background="true" diffuse="thumbs/player_thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 						<control type="image">
 							<left>6</left>
-							<top>495</top>
-							<width>290</width>
-							<height>413</height>
-							<texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
-							<bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
-							<bordersize>16</bordersize>
+							<top>475</top>
+							<width>299</width>
+							<height>427</height>
+							<texture diffuse="thumbs/player_thumbs/movieposter_mask.png">thumbs/player_thumbs/thumb_glass_noreflect.png</texture>
+							<bordertexture border="19.5">thumbs/player_thumbs/poster_shadow.png</bordertexture>
+							<bordersize>19</bordersize>
 							<visible>VideoPlayer.Content(movies) | VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 					</control>
-					<!-- MikeBZH44 Start : Default view for MusicVideos and Episodes, ddd Discart and resolution case for Movies -->
 					<control type="group">
 						<visible>Skin.HasSetting(CaseVideoThumb)</visible>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(episodes) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<left>23</left>
+							<top>516</top>
+							<width>260</width>
+							<height>371</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+							<texture background="true" diffuse="thumbs/thumb_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
 						</control>
 						<control type="image">
-							<left>3</left>
-							<top>495</top>
-							<width>290</width>
-							<height>413</height>
-							<texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
-							<bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
-							<bordersize>16</bordersize>
-							<visible>VideoPlayer.Content(MusicVideos) | VideoPlayer.Content(episodes)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
+							<left>108</left>
+							<top>557</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
+							<animation effect="rotate" end="-360" center="auto" time="4800" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
 							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<animation effect="rotate" end="-360" center="auto" time="10000" loop="true" reversible="false" condition="Player.HasVideo">Conditional</animation>
-							<visible>!Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture>cdart.png</texture>
-							<aspectratio align="center">keep</aspectratio>
+							<left>108</left>
+							<top>557</top>
+							<width>300</width>
+							<height>300</height>
+							<aligny>top</aligny>
+							<aspectratio>keep</aspectratio>
+							<texture background="true" fallback="common/cdart/bd.png">$INFO[Player.Art(discart)]</texture>
+							<fadetime>300</fadetime>
 							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>357</top>
-							<width>235</width>
-							<height>235</height>
-							<aligny>center</aligny>
-							<texture diffuse="cdart_diffuse.png" background="true">$INFO[Player.Art(discart)]</texture>
-							<aspectratio align="center">keep</aspectratio>
-							<visible>Player.Paused + VideoPlayer.Content(movies) + Skin.HasSetting(Discinfoscreen)</visible>
-						</control>
-						<control type="image">
-							<left>25</left>
-							<top>512</top>
-							<width>251</width>
-							<height>376</height>
+							<left>23</left>
+							<top>516</top>
+							<width>260</width>
+							<height>371</height>
 							<aspectratio aligny="bottom">stretch</aspectratio>
-							<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+							<texture background="true" diffuse="thumbs/thumb_mask.png">$VAR[PlayerPosterVar]</texture>
 							<visible>VideoPlayer.Content(movies)</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
 							<visible>VideoPlayer.Content(movies) + ![SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>25</left>
-							<top>600</top>
-							<width>348</width>
-							<height>479</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.HDTV.) | SubString(Player.Filename,.hdtv.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.HDDVD.) | SubString(Player.Filename,.hddvd.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, HDDVD.) | SubString(Player.Filename, hddvd.)]</visible>
+						</control>
+					
+						<control type="image">
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.WEBDL.) | SubString(Player.Filename,.webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, WEBDL.) | SubString(Player.Filename, webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename,.WEB-DL.) | SubString(Player.Filename,.web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(movies) + [SubString(Player.Filename, WEB-DL.) | SubString(Player.Filename, web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/$INFO[VideoPlayer.VideoResolution]p.png</texture>
 							<visible>VideoPlayer.Content(episodes) + ![SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/3d.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.3D.) | SubString(Player.Filename,.3d.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hdtv.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.HDTV.) | SubString(Player.Filename,.hdtv.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.HDDVD.) | SubString(Player.Filename,.hddvd.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/hddvd.png</texture>
+							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, HDDVD.) | SubString(Player.Filename, hddvd.)]</visible>
+						</control>
+					
+						<control type="image">
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.WEBDL.) | SubString(Player.Filename,.webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, WEBDL.) | SubString(Player.Filename, webdl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename,.WEB-DL.) | SubString(Player.Filename,.web-dl.)]</visible>
 						</control>
 						<control type="image">
-							<left>2</left>
-							<top>492</top>
-							<width>283</width>
-							<height>406</height>
-							<texture background="true">thumbs/playerboxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
+							<left>-22</left>
+							<top>486</top>
+							<width>322</width>
+							<height>420</height>
+							<texture background="true">thumbs/boxes/$VAR[ShowcaseCasePathVar]/webdl.png</texture>
 							<visible>VideoPlayer.Content(episodes) + [SubString(Player.Filename, WEB-DL.) | SubString(Player.Filename, web-dl.)]</visible>
 						</control>
 					</control>
-					<!-- MikeBZH44 End -->
 				</control>
 			</control>
-			Brent
 			<control type="group">
 				<visible>VideoPlayer.Content(files)</visible>
 				<animation type="WindowOpen">
@@ -2029,23 +1858,22 @@
 					<effect type="slide" end="450,0" time="480" tween="cubic"/>
 					<effect type="fade" start="100" end="0" time="480"/>
 				</animation>
-				<!-- Brimstone Player Art -->
 				<control type="image">
 					<left>25</left>
-					<top>512</top>
-					<width>251</width>
-					<height>376</height>
-					<aspectratio aligny="bottom">keep</aspectratio>
-					<texture background="true" diffuse="thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
+					<top>506</top>
+					<width>260</width>
+					<height>389</height>
+					<aspectratio aligny="bottom">stretch</aspectratio>
+					<texture background="true" diffuse="thumbs/player_thumbs/movieposter_mask.png">$VAR[PlayerPosterVar]</texture>
 				</control>
 				<control type="image">
 					<left>6</left>
-					<top>495</top>
-					<width>290</width>
-					<height>413</height>
-					<texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
-					<bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
-					<bordersize>16</bordersize>
+					<top>487</top>
+					<width>299</width>
+					<height>427</height>
+					<texture diffuse="thumbs/player_thumbs/movieposter_mask.png">thumbs/player_thumbs/thumb_glass_noreflect.png</texture>
+					<bordertexture border="19.5">thumbs/player_thumbs/poster_shadow.png</bordertexture>
+					<bordersize>19</bordersize>
 				</control>
 			</control>
 		</control>
@@ -2131,6 +1959,16 @@
 					<font>Font_OSDTitle2</font>
 					<visible>VideoPlayer.Content(episodes)</visible>
 				</control>
+			    <control type="label">
+                    <left>38</left>
+                    <top>56</top>
+                    <width>300</width>
+                    <height>38</height>
+                    <align>center</align>
+                    <label>$INFO[VideoPlayer.Year]</label>
+                    <font>Font_OSDTitle2</font>
+                    <visible>!VideoPlayer.Content(episodes)</visible>
+                </control>
 				<control type="image">
 					<left>98</left>
 					<top>110</top>
@@ -3562,8 +3400,8 @@ $INFO[Skin.String(CustomHomeItem1.MultiFanart)] $INFO[Skin.String(CustomHomeItem
 $INFO[Skin.String(CustomHomeItem4.MultiFanart)] $INFO[Skin.String(CustomHomeItem5.MultiFanart)] $INFO[Skin.String(CustomHomeItem6.MultiFanart)] 
 $INFO[Skin.String(VideosHomeItem.MultiFanart)] $INFO[Skin.String(ProgramsHomeItem.MultiFanart)] $INFO[Skin.String(SettingsHomeItem.MultiFanart)] 
 $INFO[Skin.String(SearchHomeItem.MultiFanart)] $INFO[Skin.String(ShutdownHomeItem.MultiFanart)] $INFO[Skin.String(FavouritesHomeItem.MultiFanart)] 
-$INFO[Skin.String(WeatherHomeItem.MultiFanart)] $INFO[Skin.String(YoutubeHomeItem.MultiFanart)] $INFO[Skin.String(OscarsHomeItem.MultiFanart)] $INFO[Skin.String(Top250HomeItem.MultiFanart)] 
-$INFO[Skin.String(CustomSub1_1.MultiFanart)] $INFO[Skin.String(CustomSub1_2.MultiFanart)] 
+$INFO[Skin.String(WeatherHomeItem.MultiFanart)] $INFO[Skin.String(YoutubeHomeItem.MultiFanart)] $INFO[Skin.String(OscarsHomeItem.MultiFanart)] 
+$INFO[Skin.String(Top250HomeItem.MultiFanart)] $INFO[Skin.String(CustomSub1_1.MultiFanart)] $INFO[Skin.String(CustomSub1_2.MultiFanart)] 
 $INFO[Skin.String(CustomSub1_3.MultiFanart)] $INFO[Skin.String(CustomSub1_4.MultiFanart)] $INFO[Skin.String(CustomSub1_5.MultiFanart)] 
 $INFO[Skin.String(CustomSub2_1.MultiFanart)] $INFO[Skin.String(CustomSub2_2.MultiFanart)] $INFO[Skin.String(CustomSub2_3.MultiFanart)] 
 $INFO[Skin.String(CustomSub2_4.MultiFanart)] $INFO[Skin.String(CustomSub2_5.MultiFanart)] $INFO[Skin.String(CustomSub2_1.MultiFanart)] 
@@ -3589,8 +3427,8 @@ $INFO[Skin.String(TVGuideHomeItem.Submenu)] $INFO[Skin.String(FeaturedHomeItem.S
 $INFO[Skin.String(CustomHomeItem2.Submenu)] $INFO[Skin.String(CustomHomeItem3.Submenu)] $INFO[Skin.String(CustomHomeItem4.Submenu)] 
 $INFO[Skin.String(CustomHomeItem5.Submenu)] $INFO[Skin.String(CustomHomeItem6.Submenu)] $INFO[Skin.String(VideosHomeItem.Submenu)] 
 $INFO[Skin.String(ProgramsHomeItem.Submenu)] $INFO[Skin.String(SettingsHomeItem.Submenu)] $INFO[Skin.String(SearchHomeItem.Submenu)] 
-$INFO[Skin.String(ShutdownHomeItem.Submenu)] $INFO[Skin.String(FavouritesHomeItem.Submenu)] $INFO[Skin.String(WeatherHomeItem.Submenu)]
-$INFO[Skin.String(YoutubeHomeItem.Submenu)] $INFO[Skin.String(OscarsHomeItem.Submenu)] $INFO[Skin.String(Top250HomeItem.Submenu)]</label>
+$INFO[Skin.String(ShutdownHomeItem.Submenu)] $INFO[Skin.String(FavouritesHomeItem.Submenu)] $INFO[Skin.String(WeatherHomeItem.Submenu)]$INFO[Skin.String(YoutubeHomeItem.Submenu)] 
+$INFO[Skin.String(OscarsHomeItem.Submenu)] $INFO[Skin.String(Top250HomeItem.Submenu)]</label>
 			<textcolor>00FFFFFF</textcolor>
 		</control>
 	</include>

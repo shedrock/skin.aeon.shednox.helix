@@ -618,6 +618,18 @@
 		<value condition="!IsEmpty(Skin.String(VideosBackground))">$INFO[Skin.String(VideosBackground)]</value>
 		<value>special://skin/backgrounds/videos/</value>
 	</variable>
+	<variable name="VideoFanartVar1">
+		<value condition="skin.hassetting(backendmode) + !Skin.HasSetting(NoVideoLibraryFanart) + [Container.Content(tags) | Container.Content(directors) | Container.Content(actors) | Container.Content(genres) | Container.Content(studios) | Container.Content(countries) | Container.Content(years)]">$INFO[Control.GetLabel(4324)]</value>
+		<value condition="Container.Content(genres)">$INFO[ListItem.Label,special://skin/extras/genre/video/fanartBW/,.jpg]</value>
+		<value condition="Container.Content(years)">$INFO[ListItem.Label,special://skin/extras/year/video/fanart/,.jpg]</value>
+		<value condition="[Container.Content(MusicVideos) | Container.Content(Artists) | Container.Content(Albums)]">$VAR[MusicVideosFanartVar]</value>
+		<value condition="Skin.HasSetting(NoVideoLibraryFanart) + !IsEmpty(Skin.String(VideosBackground))">$INFO[Skin.String(VideosBackground)]</value>
+		<value condition="Skin.HasSetting(NoVideoLibraryFanart)">special://skin/backgrounds/videos/</value>
+		<value condition="!IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
+		<value condition="Container.Content(addons) + IsEmpty(Skin.String(VideosBackground))">special://skin/backgrounds/programs/</value>
+		<value condition="!IsEmpty(Skin.String(VideosBackground))">$INFO[Skin.String(VideosBackground)]</value>
+		<value>special://skin/backgrounds/videos/</value>
+	</variable>
 	<variable name="MusicShowcaseLayoutVar">
 		<value condition="Stringcompare(Control.GetLabel(4420),fourthumbs)">views/music_cover_layout.png</value>
 		<value>views/music_layout.png</value>

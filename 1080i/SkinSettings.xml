@@ -491,24 +491,24 @@
                         <height>74</height>
                         <textoffsetx>70</textoffsetx>
                         <aligny>bottom</aligny>
-                        <label>Aeon Shednox 4.1.9 - Helix</label>
+                        <label>Aeon Shednox 2.0 - Helix</label>
                         <font>Font_MainClassic3</font>
                         <textcolor>grey2</textcolor>
                     </control>
                     <control type="label">
-                        <width>1050</width>
+                        <width>1060</width>
                         <height>54</height>
                         <textoffsetx>70</textoffsetx>
                         <aligny>bottom</aligny>
-                        <label>by BigNoid &amp; Phil65 Merged to Helix by Shedrock &amp; Brimstone</label>
+                        <label>by BigNoid &amp; Phil65 - Merged to Helix &amp; Enhanced by Shedrock, Schimi2k &amp; Brimstone</label>
                         <font>Font_Reg26</font>
                         <textcolor>grey2</textcolor>
-                    </control>				
+                    </control>	
                     <control type="label">
                         <label>$LOCALIZE[31735][CR]$LOCALIZE[31736][CR]$LOCALIZE[31737][CR]</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
-                    <control type="label">
+					<control type="label">
                         <label>31738</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
@@ -516,15 +516,22 @@
                         <label>$LOCALIZE[31739]][CR]$LOCALIZE[31740]][CR]$LOCALIZE[31741][CR]</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
-					
+					 <control type="label">
+                        <label>[CR][B]WARLION[/B] for his [B]numerous mods to the original skin[/B]</label>
+                        <include>Default_SettingRadioButton</include>
+                    </control>				
                     <control type="label">
-                        <label>[CR][B]mikebzh44[/B] for the [B]Showcase Mode and More[/B][CR][B]neurosis13[/B] for the [B]Colored Movie and TV-Show Icons and Mediaflags[/B]</label>
+                        <label>[CR][B]mikebzh44[/B] for the [B]Showcase Mod and More[/B][CR][B]neurosis13[/B] for the [B]Colored Movie and TV-Show Icons and Mediaflags[/B]</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
                     <control type="label">
                         <label>[B]rob_webset[/B] for [B]Video Extras Script[/B][CR][B]WayneD[/B] for the new [B]TV Show Next Aired Script[/B]</label>
                         <include>Default_SettingRadioButton</include>
-                    </control>														
+                    </control>
+				    <control type="label">
+                        <label>[CR][B]schimi2k[/B] for the [B]Colored, Clear and BD Cases and More [/B][CR][B]R3N3[/B] for incorporating [B]Maniac's Live TV mod[/B]</label>
+                        <include>Default_SettingRadioButton</include>
+                    </control>	
                 </control>
                 <control type="grouplist" id="9009">
                     <left>387</left>
@@ -595,7 +602,7 @@
                     <left>350</left>
                     <width>300</width>
                     <aspectratio>keep</aspectratio>
-                    <texture>xbmc.png</texture>
+                    <texture>kodi.png</texture>
                 </control>
             </control>
         </control>

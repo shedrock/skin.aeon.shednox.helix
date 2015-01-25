@@ -21,7 +21,7 @@
                     <viewtype label="$LOCALIZE[31283]">icon</viewtype>
                     <pagecontrol>60</pagecontrol>
 					<itemlayout height="268" width="285" condition="Container.Content(artists)">
-					----
+					
                         <control type="image">
                             <width>261</width>
                             <height>261</height>
