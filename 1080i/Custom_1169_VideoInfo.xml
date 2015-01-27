@@ -122,8 +122,8 @@
                     </item>
                     <item id="2">
                         <label>$LOCALIZE[32996]</label>
-                        <icon>views/invertTV.png</icon>
-                        <thumb>views/invertTV_focus.png</thumb>
+                        <icon>views/inverttv.png</icon>
+                        <thumb>views/inverttv_focus.png</thumb>
                         <onclick>Skin.SetBool(VideoInfoInverse)</onclick>
 						<onclick>Skin.Reset(VideoInfoOriginal)</onclick>
 						<enable>false</enable>
