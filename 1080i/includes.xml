@@ -178,6 +178,26 @@
 		<radiowidth>98</radiowidth>
 		<radioleft>308</radioleft>
 	</include>
+	<include name="Objects_MediaMenuButtonIcons1">
+		<width>420</width>
+		<height>95</height>
+		<textoffsetx>82</textoffsetx>
+		<textoffsety>28</textoffsety>
+		<aligny>top</aligny>
+		<texturefocus border="8">views/tripanel/listselect_fo.png</texturefocus>
+		<texturenofocus border="3">settings/listselect_nf2.png</texturenofocus>
+		<alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
+		<alttexturenofocus>settings/listselect_nf2.png</alttexturenofocus>
+		<font>Font_Reg29</font>
+		<textcolor>grey2</textcolor>
+		<colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
+		<focusedcolor>white6</focusedcolor>
+		<onleft condition="Skin.HasSetting(quicknav)">ActivateWindow(1121)</onleft>
+		<onleft>ClearProperty(viewtypeselect,home)</onleft>
+		<onleft>ActivateWindow(1121)</onleft>
+		<radiowidth>45</radiowidth>
+		<radioposx>8</radioposx>
+	</include>
 	<include name="Objects_MediaMenuButtonAround">
 		<width>400</width>
 		<height>60</height>
