@@ -3,6 +3,21 @@
  ---------------------------------------------
 
 
+January 27th, 2015
+
+- Reset menu icons in Includes_PVR.xml
+- Added <include> tag for Live TV in includes.xml
+- corrected label for TV guide icons in Custom_1169_VideoInfo.xml
+- Added string for TV guide icons i n Language/English/strings.po 
+
+
+
+January 26th, 2015
+
+- Fixed TV invert video info thumb – changed to lower case - Thanks to Brimstone
+
+
+
 January 25th, 2015
 
 - Resolved issue with left menu radiobuttons being  too small  - Includes.xml
