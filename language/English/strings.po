@@ -83,10 +83,6 @@ msgctxt "#31018"
 msgid "Big covers"
 msgstr "Big covers"
 
-msgctxt "#31019"
-msgid "Channel4 News"
-msgstr "Channel4 News"
-
 msgctxt "#31020"
 msgid "Extras"
 msgstr "Extras"
@@ -622,10 +618,6 @@ msgstr "Show related movies from your database"
 msgctxt "#31198"
 msgid "Extrathumbs"
 msgstr "Extrathumbs"
-
-msgctxt "#31199"
-msgid "News"
-msgstr "News"
 
 msgctxt "#31200"
 msgid "Kodi Cinema"
@@ -1286,10 +1278,6 @@ msgctxt "#31622"
 msgid "Label"
 msgstr "Label"
 
-msgctxt "#31623"
-msgid "Slot"
-msgstr "Slot"
-
 msgctxt "#31627"
 msgid "Hide OSD player controls"
 msgstr "Hide OSD player controls"
@@ -1434,10 +1422,6 @@ msgstr "Disable timepanel"
 msgctxt "#31689"
 msgid "Disable library stats"
 msgstr "Disable library stats"
-
-msgctxt "#31690"
-msgid "Disable rss panel"
-msgstr "Disable rss panel"
 
 msgctxt "#31691"
 msgid "Toggle position"
