@@ -2389,3 +2389,7 @@ msgstr "Show icon label"
 msgctxt "#32006"
 msgid "TvGuide Icons"
 msgstr "TvGuide Icons"
+
+msgctxt "#32007"
+msgid "Reloaded Mpaa Flags"
+msgstr "Reloaded Mpaa Flags"
