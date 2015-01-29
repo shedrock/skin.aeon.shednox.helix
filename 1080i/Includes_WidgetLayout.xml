@@ -2015,14 +2015,6 @@
                         <include condition="Substring(Skin.String(widgetlist),recentpicsclassic)">LatestPicturesItems</include>
                         <include condition="Substring(Skin.String(widgetlist),recentpicsclassic)">LatestPicturesItemsHome</include>
                         <include condition="Substring(Skin.String(widgetlist),mostplayedromsclassic)">MostPlayedRomsItems</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss1classic)">RSS1WidgetContent1124</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss1classic)">RSS1WidgetContent</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss2classic)">RSS2WidgetContent1124</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss2classic)">RSS2WidgetContent</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss3classic)">RSS3WidgetContent1124</include>
-                        <include condition="Substring(Skin.String(widgetlist),rss3classic)">RSS3WidgetContent</include>
-                        <include condition="Substring(Skin.String(widgetlist),rssnewsclassic)">NewsWidgetContent1124</include>
-                        <include condition="Substring(Skin.String(widgetlist),rssnewsclassic)">NewsWidgetContent</include>
                         <include condition="Substring(Skin.String(widgetlist),nextairedtvclassic)">NextAiredWidgetContent1124</include>
                         <include condition="Substring(Skin.String(widgetlist),nextairedtvclassic)">NextAiredWidgetContent</include>
                         <include condition="Substring(Skin.String(widgetlist),Icon1classic)">IconPanel1Items</include>
@@ -4295,8 +4287,6 @@
                         <include condition="Substring(Skin.String(widget2list),rss2classic)">RSS2Widget2Content</include>
                         <include condition="Substring(Skin.String(widget2list),rss3classic)">RSS3Widget2Content1124</include>
                         <include condition="Substring(Skin.String(widget2list),rss3classic)">RSS3Widget2Content</include>
-                        <include condition="Substring(Skin.String(widget2list),rssnewsclassic)">NewsWidget2Content1124</include>
-                        <include condition="Substring(Skin.String(widget2list),rssnewsclassic)">NewsWidget2Content1124</include>
                         <include condition="Substring(Skin.String(widget2list),nextairedtvclassic)">NextAiredWidget2Content1124</include>
                         <include condition="Substring(Skin.String(widget2list),nextairedtvclassic)">NextAiredWidget2Content</include>
                         <include condition="Substring(Skin.String(widget2list),Icon1classic)">IconPanel1Items2</include>
@@ -5346,26 +5336,12 @@
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widgetlist),babe)">DailyBabesContent</include>
                     <include condition="[Window.IsActive(1124) | Substring(Skin.String(widgetlist),thebigpicture)] + System.HasAddon(service.skin.widgets_bigpictures)">TheBigPictureContent</include>
                     <include condition="[Window.IsActive(1124) | Substring(Skin.String(widgetlist),xkcd)] + System.HasAddon(script.extendedinfo)">XKCDContent</include>
-                    <include condition="[Window.IsActive(1124) | Substring(Skin.String(widgetlist),cyanide)] + System.HasAddon(script.extendedinfo)">CyanideContent</include>
                     <include condition="Library.HasContent(tvshows) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),nextairedtvpanel)]">NextAiredWidgetContent1124</include>
                     <include condition="Library.HasContent(tvshows) + Substring(Skin.String(widgetlist),nextairedtvpanel) + !Window.IsActive(1124)">NextAiredWidgetContent</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),rss1panel)]">RSS1WidgetContent1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widgetlist),rss1panel) + !Window.IsActive(1124)">RSS1WidgetContent</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),rss2panel)]">RSS2WidgetContent1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widgetlist),rss2panel) + !Window.IsActive(1124)">RSS2WidgetContent</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),rss3panel)]">RSS3WidgetContent1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widgetlist),rss3panel) + !Window.IsActive(1124)">RSS3WidgetContent</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widgetlist),rssnewspanel)]">NewsWidgetContent1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widgetlist),rssnewspanel) + !Window.IsActive(1124)">NewsWidgetContent</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widgetlist),Icon1panel)">IconPanel1Items</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widgetlist),Icon2panel)">IconPanel2Items</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widgetlist),favouriteIconpanel)">FavouritesItems</include>
-                    <!--                     <item>
-                        <label>Show all</label>
-                        <onclick condition="Substring(Control.GetLabel(4321),watchlisttv)">ActivateWindow(Videos,library://video/inprogressshows.xml,return)</onclick>
-                        <visible>Control.HasFocus(5010)</visible>
-                        <visible>Substring(Control.GetLabel(4321),watchlisttv)</visible>
-                    </item> -->
+                  
                 </content>
             </control>
         </control>
@@ -5826,17 +5802,8 @@
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widget2list),babe)">DailyBabesContent2</include>
                     <include condition="[Window.IsActive(1124) | Substring(Skin.String(widget2list),thebigpicture)] + System.HasAddon(service.skin.widgets_bigpictures)">TheBigPictureContent2</include>
                     <include condition="[Window.IsActive(1124) | Substring(Skin.String(widget2list),xkcd)] + System.HasAddon(script.extendedinfo)">XKCDContent2</include>
-                    <include condition="[Window.IsActive(1124) | Substring(Skin.String(widget2list),cyanide)] + System.HasAddon(script.extendedinfo)">CyanideContent2</include>
                     <include condition="Library.HasContent(tvshows) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),nextairedtvpanel)]">NextAiredWidget2Content1124</include>
                     <include condition="Library.HasContent(tvshows) + Substring(Skin.String(widget2list),nextairedtvpanel) + !Window.IsActive(1124)">NextAiredWidget2Content</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),rss1panel)]">RSS1Widget2Content1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widget2list),rss1panel) + !Window.IsActive(1124)">RSS1Widget2Content</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),rss2panel)]">RSS2Widget2Content1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widget2list),rss2panel) + !Window.IsActive(1124)">RSS2Widget2Content</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),rss3panel)]">RSS3Widget2Content1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widget2list),rss3panel) + !Window.IsActive(1124)">RSS3Widget2Content</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + [Window.IsActive(1124) | Substring(Skin.String(widget2list),rssnewspanel)]">NewsWidget2Content1124</include>
-                    <include condition="System.HasAddon(script.extendedinfo) + Substring(Skin.String(widget2list),rssnewspanel) + !Window.IsActive(1124)">NewsWidget2Content</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widget2list),Icon1panel)">IconPanel1Items2</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widget2list),Icon2panel)">IconPanel2Items2</include>
                     <include condition="Window.IsActive(1124) | Substring(Skin.String(widget2list),favouriteIconpanel)">FavouritesItems2</include>

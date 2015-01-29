@@ -122,8 +122,8 @@
                     </item>
                     <item id="2">
                         <label>$LOCALIZE[32996]</label>
-                        <icon>views/invertTV.png</icon>
-                        <thumb>views/invertTV_focus.png</thumb>
+                        <icon>views/inverttv.png</icon>
+                        <thumb>views/inverttv_focus.png</thumb>
                         <onclick>Skin.SetBool(VideoInfoInverse)</onclick>
 						<onclick>Skin.Reset(VideoInfoOriginal)</onclick>
 						<enable>false</enable>
@@ -190,7 +190,7 @@
 					<visible>Container.Content(movies) + [IsEmpty(Skin.String(ColorFlagsPath)) + !IsEmpty(Skin.String(ReloadedFlagsPath))]</visible>				
 				</control> 								
                 <control type="radiobutton" id="1201">
-                    <label>$LOCALIZE[31990]</label>
+                    <label>$LOCALIZE[32006]</label>
                     <include>Objects_MediaMenuButtonAround</include>
                     <onclick>Skin.ToggleSetting(ColortvguideFlags)</onclick>
                     <selected>Skin.HasSetting(ColortvguideFlags)</selected>
