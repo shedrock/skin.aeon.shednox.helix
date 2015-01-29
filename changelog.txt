@@ -3,6 +3,22 @@
  ---------------------------------------------
 
 
+January 28th, 2015
+
+- Widget activation windows removed
+
+a. Deleted - Custom_1162_RSSManager.xml
+b. Deleted - Custom_1160_RSSFeedSelection.xml
+
+- Removed reference to news/rss feeds from IncludesWidget1.xml and IncludesWidget2.xml 
+- Removed all references to rss/news feeds and references to cyanide from Customwidgetchooser.xml 
+- Removed reference to newsfeedvar in variables.xml 
+- Removed all references to CyanideContent, News/RSS feeds from IncludesWidgetlayout.xml 
+- Removed all refernces to News/RSS and Cyanide Content from Startup.xml 
+- Removed some labels associated with feeds from language/English/Strings.po 
+
+
+
 January 27th, 2015
 
 - Reset menu icons in Includes_PVR.xml
