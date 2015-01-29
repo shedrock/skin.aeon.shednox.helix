@@ -18,7 +18,7 @@ b. Deleted - Custom_1160_RSSFeedSelection.xml
 - Removed some labels associated with feeds from language/English/Strings.po 
 - Videoinfo Youtube trailer fix
 - Changed filename casing on studio flags and added new ones - Thanks to neurosis13
-
+- Updated addon.xml script versions
 
 
 January 27th, 2015
