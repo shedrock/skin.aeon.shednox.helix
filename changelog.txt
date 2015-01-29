@@ -17,6 +17,8 @@ b. Deleted - Custom_1160_RSSFeedSelection.xml
 - Removed all refernces to News/RSS and Cyanide Content from Startup.xml 
 - Removed some labels associated with feeds from language/English/Strings.po 
 - Videoinfo Youtube trailer fix
+- Changed filename casing on studio flags and added new ones - Thanks to neurosis13
+
 
 
 January 27th, 2015
