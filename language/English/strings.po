@@ -2238,10 +2238,6 @@ msgctxt "#33000"
 msgid "Colored Mpaa Flags"
 msgstr "Colored Mpaa Flags"
 
-msgctxt "#33001"
-msgid "Reloaded Mpaa Flags"
-msgstr "Reloaded Mpaa Flags"
-
 msgctxt "#33003"
 msgid "Extended Rating"
 msgstr "Extended Rating"
