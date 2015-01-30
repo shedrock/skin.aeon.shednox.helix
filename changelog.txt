@@ -3,6 +3,11 @@
  ---------------------------------------------
 
 
+January 30th, 2015
+
+- Re-added media/flags/source folder, it mysteriously disappeared - Thanks to Maza for pointing this out.
+
+
 January 28th, 2015
 
 - Widget activation windows removed
