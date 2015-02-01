@@ -146,15 +146,6 @@
                         <onclick>RunAddon(script.tv.show.next.aired)</onclick>
                     </item>
                     <item id="5">
-                        <label>31199</label>
-                        <label2>$INFO[Window(home).Property(News.RSS.1.Title)]</label2>
-                        <thumb>special://skin/extras/BigIcons/Web.png</thumb>
-                        <onclick>Dialog.Close(1159)</onclick>
-                            <onclick>SetProperty(Featured,rssnews,home)</onclick>
-                            <onclick>ActivateWindow(1140)</onclick>
-                        <visible>System.HasAddon(script.extendedinfo)</visible>
-                    </item>
-                    <item id="6">
                         <label>$LOCALIZE[33050] ($INFO[Window(weather).Property(Alerts.Count)])</label>
                         <label2>$INFO[Window(weather).Property(Alerts.1.Description),,[CR]]</label2>
                         <thumb>$INFO[Window(weather).Property(Current.ConditionIcon)]</thumb>
@@ -162,7 +153,7 @@
                         <onclick>ActivateWindow(weather)</onclick>
                         <visible>!IsEmpty(Window(weather).Property(Alerts.1.Description))</visible>
                     </item>
-                    <item id="7">
+                    <item id="6">
                         <label>19158</label>
                         <label2>$INFO[PVR.NowRecordingTitle]</label2>
                         <thumb>special://skin/extras/BigIcons/Television.png</thumb>
@@ -170,7 +161,7 @@
                         <onclick>ActivateWindowAndFocus(PVR, 34,0, 13,0)</onclick>
                         <visible>PVR.IsRecording</visible>
                     </item>
-                    <item id="8">
+                    <item id="7">
                         <label>19157</label>
                         <label2>$INFO[PVR.NextRecordingDateTime]: $INFO[PVR.NextRecordingTitle]</label2>
                         <thumb>special://skin/extras/BigIcons/ButtonRecord.png</thumb>
@@ -178,7 +169,7 @@
                         <onclick>ActivateWindowAndFocus(PVR, 34,0, 13,0)</onclick>
                         <visible>PVR.HasNonRecordingTimer</visible>
                     </item>
-                    <item id="9">
+                    <item id="8">
                         <label>31163</label>
                         <label2>[COLOR grey]$LOCALIZE[20343]:[/COLOR] $INFO[Window(Home).Property(TVShows.Count)]</label2>
                         <thumb>special://skin/extras/BigIcons/Star.png</thumb>
