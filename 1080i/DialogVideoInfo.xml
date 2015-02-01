@@ -1558,9 +1558,9 @@
 							</item>
 							<item>
 								<label>31096</label>
-								<onclick condition="Stringcompare(Window(home).Property(ListType),Actors)">ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&amp;feed=search&amp;search=$INFO[Container(600).Listitem.Label]),return)</onclick>
-								<onclick condition="Stringcompare(Window(home).Property(ListType),Writer)">ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&amp;feed=search&amp;search=$INFO[ListItem.Writer],return)</onclick>
-								<onclick condition="Stringcompare(Window(home).Property(ListType),Director)">ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&amp;feed=search&amp;search=$INFO[ListItem.Director],return)</onclick>
+								<onclick condition="Stringcompare(Window(home).Property(ListType),Actors)">ActivateWindow(videos,plugin://plugin.video.youtube/kodion/search/query/?q=$INFO[Container(600).Listitem.Label]),return)</onclick>
+								<onclick condition="Stringcompare(Window(home).Property(ListType),Writer)">ActivateWindow(videos,plugin://plugin.video.youtube/kodion/search/query/?q=$INFO[ListItem.Writer],return)</onclick>
+								<onclick condition="Stringcompare(Window(home).Property(ListType),Director)">ActivateWindow(videos,plugin://plugin.video.youtube/kodion/search/query/?q=$INFO[ListItem.Director],return)</onclick>
 								<onclick>Action(Close)</onclick>
 							</item>
 							<item>
