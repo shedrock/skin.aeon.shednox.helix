@@ -3,6 +3,21 @@
  ---------------------------------------------
 
 
+February 1st, 2015
+
+- DialogAlbumInfo.xml - extendedinfo script replaced with moreinfo
+- Startup.xml - extendedinfo script replaced with moreinfo
+- Custom_1133_WidgetChooser.xml­ -  extendedinfo script replaced with moreinfo
+- DialogVideoInfo.xml – Youtube search string modified for actor, director, writer
+- Includes_WidgetLayout.xml -  extendedinfo script replaced with moreinfo and near concerts youtube string modified
+- SkinSettings.xml - extendedinfo script replaced with moreinfo
+- Includes_PVR.xml - extendedinfo script replaced with moreinfo
+- custom_1134_BackgroundChooser.xml - extendedinfo script replaced with moreinfo
+- custom_1139_DialogHomeConcert.xml - extendedinfo script replaced with moreinfo
+- custom_1159_BottomMenu.xml - extendedinfo script replaced with moreinfoSkinSettings.xml
+- Included script.moreinfo in the addons.rar archive - Based on Extended Info Script, but with others apis keys - Thanks to xbmcmania
+
+
 January 30th, 2015
 
 - Re-added media/flags/source folder, it mysteriously disappeared - Thanks to Maza for pointing this out.
