@@ -14,7 +14,7 @@ February 1st, 2015
 - Includes_PVR.xml - extendedinfo script replaced with moreinfo
 - custom_1134_BackgroundChooser.xml - extendedinfo script replaced with moreinfo
 - custom_1139_DialogHomeConcert.xml - extendedinfo script replaced with moreinfo
-- custom_1159_BottomMenu.xml - extendedinfo script replaced with moreinfoSkinSettings.xml
+- custom_1159_BottomMenu.xml - extendedinfo script replaced with moreinfo
 - Included script.moreinfo in the addons.rar archive - Based on Extended Info Script, but with others apis keys - Thanks to xbmcmania
 
 
