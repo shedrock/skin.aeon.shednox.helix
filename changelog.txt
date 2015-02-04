@@ -3,6 +3,15 @@
  ---------------------------------------------
 
 
+
+February 04, 2015
+
+- Created new image to show WEB-DL and not WEB-TV in \extras\AltIcons\reloaded flags\flags\source\web-dl.png
+- Removed transparency from \media\thumbs\boxes\movies\ images - Thanks to Schimi2k
+- Fixed subtitle text label realignment
+- New cdart visualization - Thanks to manfeed. Thanks for this awesome mod
+
+
 February 1st, 2015
 
 - DialogAlbumInfo.xml - extendedinfo script replaced with moreinfo
