@@ -673,9 +673,10 @@
                     </control>
                     <control type="label">
                         <width min="10" max="1250">auto</width>
-                        <height>75</height>
-                        <font>Font_MainClassic</font>
-                        <label>$INFO[MusicPlayer.Time,, / ]∞</label>
+                        <height>70</height>
+                        <font>Font_MainClassic2</font>
+                        <textcolor>$VAR[TitleColorVar]</textcolor>
+						<label>$INFO[MusicPlayer.Time,, / ]∞</label>
                         <textcolor>white</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <align>right</align>
