@@ -3,6 +3,35 @@
  ---------------------------------------------
 
 
+
+February 04, 2015
+
+- Created new image to show WEB-DL and not WEB-TV in \extras\AltIcons\reloaded flags\flags\source\web-dl.png
+- Removed transparency from \media\thumbs\boxes\movies\ images - Thanks to Schimi2k
+- Fixed subtitle text label realignment
+- New cdart visualization - Thanks to manfeed. Thanks for this awesome mod
+
+
+February 1st, 2015
+
+- DialogAlbumInfo.xml - extendedinfo script replaced with moreinfo
+- Startup.xml - extendedinfo script replaced with moreinfo
+- Custom_1133_WidgetChooser.xml­ -  extendedinfo script replaced with moreinfo
+- DialogVideoInfo.xml – Youtube search string modified for actor, director, writer
+- Includes_WidgetLayout.xml -  extendedinfo script replaced with moreinfo and near concerts youtube string modified
+- SkinSettings.xml - extendedinfo script replaced with moreinfo
+- Includes_PVR.xml - extendedinfo script replaced with moreinfo
+- custom_1134_BackgroundChooser.xml - extendedinfo script replaced with moreinfo
+- custom_1139_DialogHomeConcert.xml - extendedinfo script replaced with moreinfo
+- custom_1159_BottomMenu.xml - extendedinfo script replaced with moreinfo
+- Included script.moreinfo in the addons.rar archive - Based on Extended Info Script, but with others apis keys - Thanks to xbmcmania
+
+
+January 30th, 2015
+
+- Re-added media/flags/source folder, it mysteriously disappeared - Thanks to Maza for pointing this out.
+
+
 January 28th, 2015
 
 - Widget activation windows removed
@@ -17,6 +46,8 @@ b. Deleted - Custom_1160_RSSFeedSelection.xml
 - Removed all refernces to News/RSS and Cyanide Content from Startup.xml 
 - Removed some labels associated with feeds from language/English/Strings.po 
 - Videoinfo Youtube trailer fix
+- Changed filename casing on studio flags and added new ones - Thanks to neurosis13
+- Updated addon.xml script versions
 
 
 January 27th, 2015

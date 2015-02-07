@@ -183,7 +183,7 @@
 					<visible>Container.Content(movies) + [!IsEmpty(Skin.String(ColorFlagsPath)) + IsEmpty(Skin.String(ReloadedFlagsPath))]</visible>				
 				</control> 	
                 <control type="radiobutton" id="1302">
-                    <label>$LOCALIZE[33001]</label>
+                    <label>$LOCALIZE[32007]</label>
                     <include>Objects_MediaMenuButtonAround</include>
                     <onclick>Skin.ToggleSetting(RatingColorFlagreloaded)</onclick>
                     <selected>Skin.HasSetting(RatingColorFlagreloaded)</selected>
@@ -216,7 +216,7 @@
 					<visible>Container.Content(tvshows) + [!IsEmpty(Skin.String(ColorFlagsPath)) + IsEmpty(Skin.String(ReloadedFlagsPath))]</visible>				
 				</control> 	
                 <control type="radiobutton" id="1306">
-                    <label>$LOCALIZE[33001]</label>
+                    <label>$LOCALIZE[32007]</label>
                     <include>Objects_MediaMenuButtonAround</include>
                     <onclick>Skin.ToggleSetting(RatingColorFlagreloaded)</onclick>
                     <selected>Skin.HasSetting(RatingColorFlagreloaded)</selected>

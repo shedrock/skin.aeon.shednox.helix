@@ -137,9 +137,9 @@
                         <label>31268</label>
                         <include>Default_SettingRadioButton</include>
                         <onclick>Skin.ToggleSetting(backendmode)</onclick>
-                        <onclick>RunScript(script.extendedinfo,backend=true)</onclick>
+                        <onclick>RunScript(script.moreinfo,backend=true)</onclick>
                         <selected>Skin.HasSetting(backendmode)</selected>
-                        <visible>System.HasAddon(script.extendedinfo)</visible>
+                        <visible>System.HasAddon(script.moreinfo)</visible>
                     </control>
                     <control type="radiobutton" id="107">
                         <label>21398</label>
@@ -377,18 +377,18 @@
                     <onup>9009</onup>
                     <ondown>9009</ondown>
                     <control type="button" id="411">
-                        <label>script.extendedinfo</label>
+                        <label>script.moreinfo</label>
                         <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[31902],$LOCALIZE[31871])</onclick>
-                        <visible>!System.HasAddon(script.extendedinfo)</visible>
+                        <visible>!System.HasAddon(script.moreinfo)</visible>
                     </control>
                     <control type="button" id="412">
-                        <label>script.extendedinfo</label>
+                        <label>script.moreinfo</label>
                         <label2>[COLOR green]$LOCALIZE[107][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
-                        <onclick>Addon.OpenSettings(script.extendedinfo)</onclick>
-                        <visible>System.HasAddon(script.extendedinfo)</visible>
+                        <onclick>Addon.OpenSettings(script.moreinfo)</onclick>
+                        <visible>System.HasAddon(script.moreinfo)</visible>
                     </control>
                     <control type="button" id="417">
                         <label>script.cinema.experience</label>
@@ -528,10 +528,10 @@
                         <label>[B]rob_webset[/B] for [B]Video Extras Script[/B][CR][B]WayneD[/B] for the new [B]TV Show Next Aired Script[/B]</label>
                         <include>Default_SettingRadioButton</include>
                     </control>
-				    <control type="label">
-                        <label>[CR][B]schimi2k[/B] for the [B]Colored, Clear and BD Cases and More [/B][CR][B]R3N3[/B] for incorporating [B]Maniac's Live TV mod[/B]</label>
+					<control type="label">
+                        <label>[B]R91g &amp; tocinillo[/B] for the [B]moreinfo script[/B][CR][B]schimi2k[/B] for the [B]Colored, Clear and BD Cases and More [/B][CR][B]R3N3[/B] for incorporating [B]Maniac's Live TV mod[/B]</label>
                         <include>Default_SettingRadioButton</include>
-                    </control>	
+                    </control>
                 </control>
                 <control type="grouplist" id="9009">
                     <left>387</left>

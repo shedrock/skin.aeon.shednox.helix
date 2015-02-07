@@ -269,11 +269,11 @@
                         </item>
                         <item>
                             <label>31818</label>
-                            <onclick>RunScript(script.extendedinfo,info=NearEvents)</onclick>
+                            <onclick>RunScript(script.moreinfo,info=NearEvents)</onclick>
                             <onclick>SetProperty(CustomYesNoDialog,concertspanel,1124)</onclick>
                             <onclick>Skin.SetString(ItemToEdit.$INFO[Window(1124).Property(WidgetSelection)]Title,$LOCALIZE[31818])</onclick>
                             <onclick>ActivateWindow(1146)</onclick>
-                            <visible>System.HasAddon(script.extendedinfo)</visible>
+                            <visible>System.HasAddon(script.moreinfo)</visible>
                         </item>
                         <item>
                             <label>31820</label>
@@ -285,29 +285,9 @@
                             <label>XKCD</label>
                             <onclick>SetProperty(CustomYesNoDialog,xkcdimages,1124)</onclick>
                             <onclick>Skin.SetString(ItemToEdit.$INFO[Window(1124).Property(WidgetSelection)]Title,XKCD)</onclick>
-                            <onclick>RunScript(script.extendedinfo,info=xkcd)</onclick>
+                            <onclick>RunScript(script.moreinfo,info=xkcd)</onclick>
                             <onclick>ActivateWindow(1137)</onclick>
-                            <visible>System.HasAddon(script.extendedinfo)</visible>
-                        </item>
-                        <item>
-                            <label>Cyanide &amp; Happiness</label>
-                            <onclick>SetProperty(CustomYesNoDialog,cyanideimages,1124)</onclick>
-                            <onclick>Skin.SetString(ItemToEdit.$INFO[Window(1124).Property(WidgetSelection)]Title,Cyanide &amp; Happiness)</onclick>
-                            <onclick>RunScript(script.extendedinfo,info=cyanide)</onclick>
-                            <onclick>ActivateWindow(1137)</onclick>
-                            <visible>System.HasAddon(script.extendedinfo)</visible>
-                        </item>
-                        <item>
-                            <label>31199</label>
-                            <onclick>SetProperty(CustomYesNoDialog,rssnews,1124)</onclick>
-                            <onclick>Skin.SetString(ItemToEdit.$INFO[Window(1124).Property(WidgetSelection)]Title,News)</onclick>
-                            <onclick>ActivateWindow(1137)</onclick>
-                        </item>
-                        <item>
-                            <label>$LOCALIZE[20304]</label>
-                            <onclick>Dialog.Close(1133)</onclick>
-                            <onclick>ActivateWindow(1162)</onclick>
-                            <visible>System.HasAddon(script.extendedinfo)</visible>
+                            <visible>System.HasAddon(script.moreinfo)</visible>
                         </item>
                         <item>
                             <label>31327</label>
