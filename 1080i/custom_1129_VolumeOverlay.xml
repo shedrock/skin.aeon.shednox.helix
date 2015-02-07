@@ -29,18 +29,18 @@
                 <include>PanelGlowFade</include>
                 <include>Animation_VisibleChange400</include>
             </control>
-            <control type="image">
+		    <control type="image">
                 <left>-4</left>
                 <top>-4</top>
-                <width>300</width>
-                <height>147</height>
+                <width>330</width>
+                <height>162</height>
                 <texture>dialogs/scan_backg.png</texture>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             </control>
             <control type="group">
                 <visible>!Window.IsVisible(mutebug)</visible>
                 <control type="image">
-                    <left>-5</left>
+                    <left>-10</left>
                     <top>-5</top>
                     <width>150</width>
                     <height>150</height>
@@ -48,8 +48,8 @@
                     <fadetime>0</fadetime>
                     <colordiffuse>$VAR[VolumeColorVar]</colordiffuse>
                 </control>
-                <control type="image">
-                    <left>44</left>
+			    <control type="image">
+                    <left>40</left>
                     <top>45</top>
                     <width>55</width>
                     <height>55</height>
@@ -64,7 +64,7 @@
                     <info>Player.Volume</info>
                 </control>
                 <control type="label">
-                    <left>153</left>
+                    <left>163</left>
                     <top>-35</top>
                     <width>564</width>
                     <height>200</height>
@@ -75,24 +75,27 @@
                     <visible>!Window.IsVisible(mutebug)</visible>
                 </control>
             </control>
-            <control type="label">
+		    <control type="label">
+			    <left>12</left>
+				<top>110</top>
+			    <align>left</align>
                 <label>29802</label>
                 <include>Dialogs_Label2</include>
                 <visible>player.passthrough</visible>
             </control>
             <control type="group">
                 <visible>Window.IsVisible(mutebug)</visible>
-                <control type="image">
-                    <left>21</left>
-                    <top>20</top>
+			    <control type="image">
+                    <left>26</left>
+                    <top>30</top>
                     <width>100</width>
                     <height>100</height>
                     <texture>dialogs/mute.png</texture>
                     <colordiffuse>white2</colordiffuse>
                 </control>
-                <control type="label">
-                    <left>153</left>
-                    <top>-35</top>
+				<control type="label">
+                    <left>158</left>
+                    <top>-25</top>
                     <width>564</width>
                     <height>200</height>
                     <align>left</align>
