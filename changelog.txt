@@ -6,7 +6,7 @@
 
 February 13, 2015
 
-- New studio, audio and language flages added - Thanks to neurosis13
+- New studio, audio and language flags added - Thanks to neurosis13
 - Replaced sets images with those from Schimi2k
 
 February 04, 2015
