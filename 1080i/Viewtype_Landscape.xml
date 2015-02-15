@@ -234,7 +234,7 @@
             <animation effect="slide" tween="cubic" easing="inout" time="400" start="0,-200" end="0,0">VisibleChange</animation>
             <control type="image">
                 <top>-130</top>
-                <width>1920</width>
+                <width>2010</width>
                 <height>220</height>
                 <texture>views/logo_tagline_gradient.png</texture>
                 <colordiffuse>ffffffff</colordiffuse>
