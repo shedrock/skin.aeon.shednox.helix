@@ -5059,7 +5059,7 @@
                             <info>ListItem.Icon</info>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -5093,7 +5093,7 @@
                             <info>ListItem.Icon</info>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -5105,7 +5105,7 @@
                             <visible>!Control.HasFocus(5010)</visible>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -5152,7 +5152,7 @@
                             <texture>common/bgcolor.png</texture>
                             <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
                         </control>
-                        <control type="label">
+					    <control type="label">
                             <left>5</left>
                             <top>280</top>
                             <width>389</width>
@@ -5535,7 +5535,7 @@
                             <info>ListItem.Icon</info>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -5569,7 +5569,7 @@
                             <info>ListItem.Icon</info>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -5581,7 +5581,7 @@
                             <visible>!Control.HasFocus(6010)</visible>
                         </control>
                         <control type="label">
-                            <left>159</left>
+                            <left></left>
                             <top>309</top>
                             <width>309</width>
                             <height>50</height>
@@ -6705,7 +6705,7 @@
                     <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
                 </control>
                 <control type="label">
-                    <left>272</left>
+                    <left></left>
                     <top>268</top>
                     <width>528</width>
                     <height>105</height>
@@ -6733,7 +6733,7 @@
                 <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
             </control>
             <control type="label">
-                <left>272</left>
+                <left></left>
                 <top>-32</top>
                 <width>528</width>
                 <height>105</height>
@@ -6765,8 +6765,8 @@
                     <aspectratio scalediffuse="false">keep</aspectratio>
                     <texture>$INFO[ListItem.Property(Logo)]</texture>
                 </control>
-                <control type="label">
-                    <left>399</left>
+			    <control type="label">
+                    <left></left>
                     <top>8</top>
                     <width>758</width>
                     <height>105</height>
@@ -6786,8 +6786,8 @@
                 <texture background="true" diffuse="thumbs/banner_mask.png">$INFO[ListItem.Property(Banner)]</texture>
             </control>
         </control>
-        <control type="label">
-            <left>399</left>
+	    <control type="label">
+            <left></left>
             <top>106</top>
             <width>728</width>
             <height>105</height>
@@ -6816,7 +6816,7 @@
             <texture background="true">$INFO[ListItem.Property(Fanart)]</texture>
         </control>		
         <control type="image">
-            <left>0</left>
+            <left></left>
             <top>285</top>
             <width>532</width>
             <height>60</height>
@@ -6824,7 +6824,7 @@
             <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
         </control>
         <control type="label">
-            <left>272</left>
+            <left></left>
             <top>248</top>
             <width>528</width>
             <height>105</height>
@@ -6832,8 +6832,8 @@
             <label>$INFO[ListItem.Label]</label>
             <font>Font_Reg29</font>
         </control>
-        <control type="label">
-            <left>272</left>
+	    <control type="label">
+            <left></left>
             <top>275</top>
             <width>528</width>
             <height>105</height>
@@ -6864,7 +6864,7 @@
             <visible>IsEmpty(ListItem.Property(Logo))</visible>
         </control>
         <control type="label">
-            <left>266</left>
+            <left></left>
             <top>313</top>
             <width>532</width>
             <height>30</height>
@@ -6874,7 +6874,7 @@
             <font>Font_Reg30_2</font>
         </control>
         <control type="label">
-            <left>266</left>
+            <left></left>
             <top>283</top>
             <width>532</width>
             <height>30</height>
@@ -6915,7 +6915,7 @@
             <visible>IsEmpty(ListItem.Property(Logo)) + IsEmpty(ListItem.Property(ClearArt))</visible>
         </control>
         <control type="label">
-            <left>266</left>
+            <left></left>
             <top>283</top>
             <width>532</width>
             <height>30</height>
@@ -6927,7 +6927,7 @@
             <visible>!IsEmpty(ListItem.Property(NextTitle))</visible>
         </control>
         <control type="label">
-            <left>266</left>
+            <left></left>
             <top>313</top>
             <width>532</width>
             <height>30</height>

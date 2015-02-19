@@ -70,7 +70,7 @@
 						<colordiffuse>55ffffff</colordiffuse>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>
@@ -88,7 +88,7 @@
                         <aspectratio>keep</aspectratio>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>
@@ -203,8 +203,8 @@
                 <align>center</align>
             </control>
             <control type="label">
-                <top>610</top>
-                <left>650</left>
+                <left>600</left>
+     			<top>610</top>
                 <width>720</width>
                 <label>31176</label>
                 <include>Objects_MediaMenuLabelAlt2</include>

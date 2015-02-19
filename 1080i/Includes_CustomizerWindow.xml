@@ -1817,7 +1817,7 @@
         <animation effect="fade" start="100" end="30" time="160" condition="Window.IsVisible(1113) | ControlGroup(9001).HasFocus">conditional</animation>
         <itemlayout height="225" width="519" condition="!Skin.HasSetting(biggergap) + !Skin.HasSetting(mainmenuicons)">
             <control type="label">
-                <left>260</left>
+                <left></left>
                 <width>519</width>
                 <textcolor>white5</textcolor>
                 <include>MainMenuLabels</include>
@@ -1833,7 +1833,7 @@
         </itemlayout>
         <focusedlayout height="225" width="519" condition="!Skin.HasSetting(biggergap) + !Skin.HasSetting(mainmenuicons)">
             <control type="label">
-                <left>260</left>
+                <left></left>
                 <width>519</width>
                 <textcolor>$VAR[MainMenuFontColorVar]</textcolor>
                 <include>MainMenuLabels</include>
@@ -1849,7 +1849,7 @@
         </focusedlayout>
         <itemlayout height="225" width="639" condition="Skin.HasSetting(biggergap) + !Skin.HasSetting(mainmenuicons)">
             <control type="label">
-                <left>260</left>
+                <left></left>
                 <width>639</width>
                 <textcolor>white5</textcolor>
                 <include>MainMenuLabels</include>
@@ -1865,7 +1865,7 @@
         </itemlayout>
         <focusedlayout height="225" width="639" condition="Skin.HasSetting(biggergap) + !Skin.HasSetting(mainmenuicons)">
             <control type="label">
-                <left>320</left>
+                <left>0</left>
                 <width>639</width>
                 <textcolor>$VAR[MainMenuFontColorVar]</textcolor>
                 <include>MainMenuLabels</include>
@@ -1899,8 +1899,8 @@
                 <colordiffuse>48FFFFFF</colordiffuse>
                 <visible>!SubString(ListItem.Property(BigIcon),/BigIcons/)</visible>
             </control>
-            <control type="label">
-                <left>297</left>
+			<control type="label">
+                <left>172</left>
                 <top>29</top>
                 <width>250</width>
                 <height>225</height>
@@ -1941,8 +1941,8 @@
                     <visible>!SubString(ListItem.Property(BigIcon),/BigIcons/)</visible>
                 </control>
             </control>
-            <control type="label">
-                <left>297</left>
+		    <control type="label">
+                <left>172</left>
                 <top>29</top>
                 <width>250</width>
                 <height>225</height>
@@ -1977,8 +1977,8 @@
         <scrolltime tween="quadratic">300</scrolltime>
         <onup>9000</onup>
         <itemlayout width="230" height="50">
-            <control type="label">
-                <left>115</left>
+		   <control type="label">
+                <left>2</left>
                 <width>224</width>
                 <height>50</height>
                 <align>center</align>
@@ -1996,8 +1996,8 @@
             </control>
         </itemlayout>
         <focusedlayout width="230" height="50">
-            <control type="label">
-                <left>115</left>
+ 			<control type="label">
+                <left>2</left>
                 <width>224</width>
                 <height>50</height>
                 <align>center</align>
@@ -2010,7 +2010,7 @@
                 <visible>Control.HasFocus(9010)</visible>
             </control>
             <control type="label">
-                <left>115</left>
+                <left>2</left>
                 <width>224</width>
                 <height>50</height>
                 <align>center</align>

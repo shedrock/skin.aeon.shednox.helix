@@ -115,7 +115,7 @@
                         <info>ListItem.Label</info>
                     </control>
                     <control type="label">
-                        <left>633</left>
+                        <left>569</left>
                         <width>128</width>
                         <height>62</height>
                         <align>center</align>
@@ -147,7 +147,7 @@
                         <animation effect="fade" time="160" start="100" end="50" reversible="false" condition="!Control.HasFocus(20)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <left>633</left>
+                        <left>569</left>
                         <width>128</width>
                         <height>62</height>
                         <align>center</align>
@@ -223,7 +223,7 @@
                         <info>ListItem.Label</info>
                     </control>
                     <control type="label">
-                        <left>633</left>
+                        <left>569</left>
                         <width>128</width>
                         <height>62</height>
                         <align>center</align>
@@ -255,7 +255,7 @@
                         <animation effect="fade" time="160" start="100" end="50" reversible="false" condition="!Control.HasFocus(21)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <left>633</left>
+                        <left>569</left>
                         <width>128</width>
                         <height>62</height>
                         <align>center</align>

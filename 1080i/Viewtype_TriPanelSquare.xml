@@ -351,7 +351,7 @@
                             </control>
                         </control>
                         <control type="label">
-                            <left>68</left>
+                            <left>30</left>
                             <width>75</width>
                             <height>52</height>
                             <align>center</align>
@@ -369,7 +369,7 @@
                             <textcolor>grey2</textcolor>
                         </control>
                         <control type="label">
-                            <left>795</left>
+                            <left>114</left>
                             <width>680</width>
                             <height>52</height>
                             <align>right</align>
@@ -424,7 +424,7 @@
                             <animation effect="fade" start="100" end="25" tween="sine" easing="inout" time="240" condition="!Control.HasFocus(53)">Conditional</animation>
                         </control>
                         <control type="label">
-                            <left>68</left>
+                            <left>30</left>
                             <width>75</width>
                             <height>52</height>
                             <align>center</align>
@@ -440,7 +440,7 @@
                             <font>Font_Reg30_2</font>
                         </control>
                         <control type="label">
-                            <left>795</left>
+                            <left>114</left>
                             <width>680</width>
                             <height>52</height>
                             <align>right</align>
@@ -484,8 +484,8 @@
                                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                             </control>
                         </control>
-                        <control type="label">
-                            <left>68</left>
+					    <control type="label">
+                            <left>30</left>
                             <width>75</width>
                             <height>49</height>
                             <align>center</align>
@@ -512,7 +512,7 @@
                             <textcolor>grey2</textcolor>
                         </control>
                         <control type="label">
-                            <left>795</left>
+                            <left>114</left>
                             <width>680</width>
                             <height>51</height>
                             <align>right</align>
@@ -566,8 +566,8 @@
                             <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
                             <animation effect="fade" start="100" end="25" tween="sine" easing="inout" time="240" condition="!Control.HasFocus(53)">Conditional</animation>
                         </control>
-                        <control type="label">
-                            <left>68</left>
+					    <control type="label">
+                            <left>30</left>
                             <width>75</width>
                             <height>49</height>
                             <align>center</align>
@@ -591,7 +591,7 @@
                             <font>Font_Reg30_2</font>
                         </control>
                         <control type="label">
-                            <left>795</left>
+                            <left>114</left>
                             <width>680</width>
                             <height>51</height>
                             <align>right</align>

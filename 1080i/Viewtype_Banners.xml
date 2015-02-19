@@ -85,7 +85,7 @@
                         <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
                     </control>
                     <control type="label">
-                        <left>272</left>
+                        <left>8</left>
                         <top>8</top>
                         <width>528</width>
                         <height>105</height>
@@ -126,7 +126,7 @@
                         <left>6</left>
                         <top>8</top>
                         <width>552</width>
-                        <height>104</height>
+                        <height>105</height>
                         <aspectratio scalediffuse="false">scale</aspectratio>
                         <texture diffuse="thumbs/banner_mask.png">common/bgcolor.png</texture>
                         <animation effect="fade" start="100" end="50" time="40" condition="true">Conditional</animation>
@@ -135,11 +135,11 @@
                 <focusedlayout width="562" height="120" condition="!Skin.HasSetting(AltBannerPlex)">
                     <control type="group">
                         <animation effect="zoom" center="auto" start="100" end="122" time="480" tween="back" reversible="false">Focus</animation>
-                        <control type="image">
+                      	<control type="image">
                             <left>6</left>
                             <top>8</top>
                             <width>552</width>
-                            <height>104</height>
+                            <height>105</height>
                             <aspectratio scalediffuse="false">scale</aspectratio>
                             <texture background="true" diffuse="thumbs/banner_mask.png">$VAR[BannerVar]</texture>
                         </control>
@@ -153,7 +153,7 @@
                             <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
                         </control>
                         <control type="label">
-                            <left>272</left>
+                            <left>8</left>
                             <top>8</top>
                             <width>528</width>
                             <height>105</height>
@@ -219,7 +219,7 @@
                         <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
                     </control>
                     <control type="label">
-                        <left>281</left>
+                        <left></left>
                         <width>562</width>
                         <height>104</height>
                         <align>center</align>
@@ -286,7 +286,7 @@
                             <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
                         </control>
                         <control type="label">
-                            <left>281</left>
+                            <left></left>
                             <width>562</width>
                             <height>104</height>
                             <align>center</align>

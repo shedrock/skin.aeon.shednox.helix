@@ -71,11 +71,10 @@
 						<texture colordiffuse="55FFFFFF">common/bgcolor.png</texture>
 					</control>
 					<control type="label">
-					   <posx>200</posx>
 						<width>400</width>
 						<height>400</height>
 						<label>$INFO[ListItem.Label]</label>
-					    <font>Font_Reg42_2</font>
+						<font>Font_Reg42_2</font>
 						<align>center</align>
 						<textcolor>white2</textcolor>
 					</control>
@@ -127,7 +126,6 @@
 							<align>center</align>
 						</control>
 						<control type="label">
-						    <posx>200</posx>
 							<width>400</width>
 							<height>400</height>
 							<label>$INFO[ListItem.Label]</label>

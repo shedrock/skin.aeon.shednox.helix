@@ -493,7 +493,7 @@
                         <visible>Container.Content(songs)</visible>
                     </control>
                     <control type="label">
-                        <left>93</left>
+                        <left>52</left>
                         <width>82</width>
                         <height>98</height>
                         <align>center</align>
@@ -519,7 +519,7 @@
                         <textcolor>grey2</textcolor>
                     </control>
                     <control type="label">
-                        <left>984</left>
+                        <left>899</left>
                         <top>3</top>
                         <width>170</width>
                         <height>48</height>
@@ -531,7 +531,7 @@
                         <animation effect="slide" end="0,18" time="0" condition="Container.Content(seasons)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <left>984</left>
+                        <left>899</left>
                         <top>54</top>
                         <width>170</width>
                         <height>36</height>
@@ -597,7 +597,7 @@
                         <visible>Container.Content(songs)</visible>
                     </control>
                     <control type="label">
-                        <left>93</left>
+                        <left>52</left>
                         <width>82</width>
                         <height>98</height>
                         <align>center</align>
@@ -620,7 +620,7 @@
                         <label>$VAR[ListLabel2Var]</label>
                     </control>
                     <control type="label">
-                        <left>984</left>
+                        <left>899</left>
                         <top>3</top>
                         <width>170</width>
                         <height>48</height>
@@ -631,7 +631,7 @@
                         <animation effect="slide" end="0,18" time="0" condition="Container.Content(seasons)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <left>984</left>
+                        <left>899</left>
                         <top>54</top>
                         <width>170</width>
                         <height>36</height>
@@ -796,7 +796,7 @@
                         <label>$VAR[ListLabel2Var]</label>
                     </control>
                     <control type="label">
-                        <left>78</left>
+                        <left>28</left>
                         <width>100</width>
                         <height>60</height>
                         <align>center</align>
@@ -857,7 +857,7 @@
                         <label>$VAR[ListLabel2Var]</label>
                     </control>
                     <control type="label">
-                        <left>78</left>
+                        <left>28</left>
                         <width>100</width>
                         <height>60</height>
                         <align>center</align>

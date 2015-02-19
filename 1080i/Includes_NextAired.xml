@@ -132,7 +132,7 @@
 						<effect type="slide" end="-125,-10" time="0" />
 					</animation>							
 				<control type="label">
-                    <left>191</left>
+                    <left>114</left>
                     <top>850</top>				
 					<width>155</width>
 					<height>38</height>
@@ -163,7 +163,7 @@
 					</animation>					
                 </control>
                 <control type="label">
-                    <left>215</left>
+                    <left>41</left>
                     <top>468</top>
                     <width>370</width>
                     <height>80</height>
@@ -322,8 +322,8 @@
         <texture background="true">$INFO[ListItem.Property(Art(banner))]</texture>
         <visible>StringCompare(Window(Home).Property(TVGuide.ThumbType),1)</visible>
     </include>
-    <include name="NextAiredLabelVars">
-        <left>86</left>
+	<include name="NextAiredLabelVars">
+        <left></left>
         <top>120</top>
         <width>171</width>
         <height>30</height>

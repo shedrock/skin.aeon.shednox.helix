@@ -69,7 +69,7 @@
 						<colordiffuse>88ffffff</colordiffuse>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>
@@ -87,7 +87,7 @@
                         <aspectratio>keep</aspectratio>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>

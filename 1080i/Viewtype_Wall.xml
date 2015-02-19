@@ -157,10 +157,9 @@
 		            <texture>overlayprogress.png</texture>
 		            <visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
 	            </control>			
-			
-                <control type="label">
+		        <control type="label">
                     <top>172</top>
-                    <left>122</left>
+                    <left>15</left>
 					<width>214</width>
 					<align>center</align>
                     <label>$INFO[ListItem.Label]</label>
@@ -170,7 +169,7 @@
             </control>
 		        <control type="label">
                     <top>172</top>
-                    <left>122</left>
+                    <left>15</left>
 				    <width>214</width>
 				    <align>center</align>
                     <label>$INFO[ListItem.Label]</label>
@@ -260,7 +259,7 @@
 		            </control>			
 		            <control type="label">
                       <top>172</top>
-                      <left>122</left>
+                      <left>15</left>
 					  <width>214</width>
 					  <align>center</align>
                       <label>$INFO[ListItem.Label]</label>
@@ -271,7 +270,7 @@
             </control>
                     <control type="label">
                       <top>172</top>
-                      <left>122</left>
+                      <left>15</left>
 					  <width>214</width>
 					  <align>center</align>
                       <label>$INFO[ListItem.Label]</label>
@@ -304,7 +303,7 @@
 					<visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
 				</control>
 				<control type="label">
-					<left>416</left>
+					<left></left>
 					<top>8</top>
 					<width>816</width>
 					<height>146</height>
@@ -365,7 +364,7 @@
 					<visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
 				</control>
 				<control type="label">
-					<left>416</left>
+					<left></left>
 					<top>8</top>
 					<width>816</width>
 					<height>146</height>

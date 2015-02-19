@@ -127,7 +127,7 @@
 				   <onup>150</onup>
                     <label>$LOCALIZE[31096]</label>
                     <include>DialogVideoInfoButton</include>
-					<onclick>ActivateWindow(videos,plugin://plugin.video.youtube/?path=/root/search&amp;feed=search&amp;search=$INFO[Container(50).Listitem.Label],return)</onclick>
+					<onclick>ActivateWindow(videos,plugin://plugin.video.youtube/kodion/search/query/?q=$INFO[Container(50).Listitem.Label],return)</onclick>
                     <onclick>Dialog.Close(all,true)</onclick>
 					
 					

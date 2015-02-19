@@ -84,7 +84,7 @@
                         <texture>dialogs/setcontent_scraper_nofocus.png</texture>
                     </control>
                     <control type="label">
-                        <left>146</left>
+                        <left></left>
                         <width>292</width>
                         <height>62</height>
                         <align>center</align>
@@ -106,7 +106,7 @@
                         <visible>Control.HasFocus(21)</visible>
                     </control>
                     <control type="label">
-                        <left>146</left>
+                        <left></left>
                         <width>292</width>
                         <height>62</height>
                         <align>center</align>

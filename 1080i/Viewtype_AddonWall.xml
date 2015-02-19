@@ -742,12 +742,12 @@
                             </control>
                         </control>
                     </focusedlayout>	
-                    <itemlayout height="268" width="189" condition="Container.Content(movies) + Skin.HasSetting(usecasesinfowall)">
+					<itemlayout height="268" width="189" condition="Container.Content(movies) + Skin.HasSetting(usecasesinfowall)">
                         <control type="image">
                             <left>9</left>
-                            <top>30</top>
+                            <top>29</top>
                             <width>150</width>
-                            <height>225</height>
+                            <height>224</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture background="true" diffuse="thumbs/boxes/case_mask.png">$VAR[ListPosterVar]</texture>
 							<colordiffuse>FF727171</colordiffuse>
@@ -755,9 +755,9 @@
                         </control>
 						 <control type="image">
                             <left>9</left>
-                            <top>30</top>
+                            <top>29</top>
                             <width>150</width>
-                            <height>225</height>
+                            <height>224</height>
                             <aspectratio scalediffuse="false">stretch</aspectratio>
                             <texture background="true" diffuse="thumbs/boxes/case_mask.png">$VAR[ListPosterVar1]</texture>
 							<colordiffuse>FF727171</colordiffuse>
@@ -773,16 +773,16 @@
 							<colordiffuse>FF727171</colordiffuse>
                         </control>
                         <control type="image">
-                            <left>106</left>
-                            <top>31</top>
+                            <left>104</left>
+                            <top>30</top>
                             <width>52</width>
                             <height>52</height>
                             <include>OverlayVisibility0</include>
 							<colordiffuse>FF727171</colordiffuse>
                         </control>
 						<control type="image">
-                            <left>106</left>
-                            <top>31</top>
+                            <left>104</left>
+                            <top>30</top>
                             <width>52</width>
                             <height>52</height>					
 							<texture>overlayprogress.png</texture>
@@ -790,8 +790,8 @@
 							<colordiffuse>FF727171</colordiffuse>
 						</control>							
 							<control type="image">
-                            <left>106</left>
-                            <top>31</top>
+                            <left>104</left>
+                            <top>30</top>
                             <width>52</width>
                             <height>52</height>
 								<texture>$VAR[VideoextrasOverlay]</texture>
@@ -799,23 +799,23 @@
 								<animation effect="fade" end="50" time="0" condition="true">Conditional</animation>
 							</control>					
                     </itemlayout>
-                    <focusedlayout height="268" width="189" condition="Container.Content(movies) + Skin.HasSetting(usecasesinfowall)">
+					<focusedlayout height="268" width="189" condition="Container.Content(movies) + Skin.HasSetting(usecasesinfowall)">
                         <control type="group">
                             <animation effect="zoom" center="90,134" start="100" end="140" time="160" tween="cubic" reversible="false">Focus</animation>
                             <control type="image">
                                 <left>9</left>
-                                <top>30</top>
+                                <top>29</top>
                                 <width>150</width>
-                                <height>225</height>
+                                <height>224</height>
                                 <aspectratio scalediffuse="false">stretch</aspectratio>
                                 <texture background="true" diffuse="thumbs/boxes/case_mask.png">$VAR[ListPosterVar]</texture>
 								<visible>Skin.HasSetting(genrethumbs)</visible>
                             </control>
 							 <control type="image">
                                 <left>9</left>
-                                <top>30</top>
+                                <top>29</top>
                                 <width>150</width>
-                                <height>225</height>
+                                <height>224</height>
                                 <aspectratio scalediffuse="false">stretch</aspectratio>
                                 <texture background="true" diffuse="thumbs/boxes/case_mask.png">$VAR[ListPosterVar1]</texture>
 								<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -829,23 +829,23 @@
                                 <texture>thumbs/boxes/$VAR[addonwallCasePathVar]/$VAR[GlobalCaseVar]</texture>
                             </control>
                            <control type="image">
-                                <left>106</left>
-                                <top>31</top>
+                                <left>104</left>
+                                <top>30</top>
                                 <width>52</width>
                                 <height>52</height>
                                 <include>OverlayVisibility0</include>
                             </control>
 							<control type="image">
-                                <left>106</left>
-                                <top>31</top>
+                                <left>104</left>
+                                <top>30</top>
                                 <width>52</width>
                                 <height>52</height>					
 								<texture>overlayprogress.png</texture>
 								<visible>Container.ListItem(0).IsResumable + Skin.HasSetting(InProgressFlag)</visible>
 							</control>								
 							<control type="image">
-                                <left>106</left>
-                                <top>31</top>
+                                <left>104</left>
+                                <top>30</top>
                                 <width>52</width>
                                 <height>52</height>
 								<texture>$VAR[VideoextrasOverlay]</texture>
