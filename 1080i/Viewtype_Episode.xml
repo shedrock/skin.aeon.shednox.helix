@@ -373,7 +373,7 @@
                         <shadowcolor>floorshadow</shadowcolor>
                         <textcolor>white2</textcolor>
                     </control>
-					brnetos title
+					
                     <control type="label">
                         <left>370</left>
                         <top>0</top>
@@ -521,8 +521,8 @@
                 <animation type="Conditional" reversible="false" condition="Control.HasFocus(514) + [!Container(514).OnNext + !Container(514).OnPrevious]">
                     <effect type="fade" end="100" time="160" />
                 </animation>
-                <control type="label">
-                    <left>838</left>
+			    <control type="label">
+                    <left>13</left>
                     <top>22</top>
                     <width>825</width>
                     <align>right</align>
@@ -534,7 +534,7 @@
                     <visible>!IsEmpty(ListItem.Title)</visible>
                 </control>
                 <control type="label">
-                    <left>838</left>
+                    <left>-112</left>
                     <top>70</top>
                     <width>950</width>
                     <height>90</height>
