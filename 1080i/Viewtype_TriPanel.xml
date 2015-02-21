@@ -218,7 +218,6 @@
 				<visible>!StringCompare(ListItem.Label,..)</visible>
 				<visible>Control.IsVisible(52)</visible>
 				<visible>[Stringcompare(Skin.String(TriPanelPosition),1) | IsEmpty(Skin.String(TriPanelPosition))] + !Container.Content(years) + !Container.Content(countries)</visible>
-			
 				<control type="image">
 					<left>55</left>
 					<top>827</top>
@@ -229,7 +228,7 @@
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
 				</control>
-					<control type="image">
+				<control type="image">
 					<left>55</left>
 					<top>827</top>
 					<width>530</width>
@@ -249,7 +248,7 @@
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
 				</control>
-					<control type="image">
+				<control type="image">
 					<left>67</left>
 					<top>31</top>
 					<width>530</width>
@@ -274,7 +273,7 @@
 					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
 					<texture>views/tripanel/poster_overlay.png</texture>
 				</control>
-					<control type="image">
+				<control type="image">
 					<left>27</left>
 					<top>-48</top>
 					<width>610</width>
@@ -284,7 +283,6 @@
 					<colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
 					<visible>!Skin.HasSetting(DisableGlowbar)</visible>
 				</control>
-	
 			</control>
 			<control type="group" id="5203">
 				<left>1335</left>
@@ -580,7 +578,7 @@
 								<visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
 							</control>
 							<control type="label">
-								<left>398</left>
+								<left>2</left>
 								<width>792</width>
 								<height>147</height>
 								<align>center</align>
@@ -627,7 +625,8 @@
 								<width>786</width>
 								<height>142</height>
 								<texture background="true">thumbs/banner_shadow_in.png</texture>
-								<!--<animation effect="fade" time="50" delay="150" start="50" end="0">Focus</animation>--></control>
+								<!--<animation effect="fade" time="50" delay="150" start="50" end="0">Focus</animation>-->
+							</control>
 						</control>
 					</itemlayout>
 					<focusedlayout condition="[Container.Content(tvshows) + Skin.HasSetting(tripanelbannertv)] | [Container.Content(movies) + Skin.HasSetting(tripanelbannermovies)]" height="147">
@@ -654,7 +653,7 @@
 								<visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
 							</control>
 							<control type="label">
-								<left>398</left>
+								<left>2</left>
 								<width>792</width>
 								<height>147</height>
 								<align>center</align>
@@ -734,7 +733,7 @@
 						</control>
 						<control type="label">
 							<visible>stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>60</left>
+							<left>22</left>
 							<width>75</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -754,17 +753,17 @@
 						</control>
 						<control type="label">
 							<visible>stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>795</left>
+							<left>745</left>
 							<width>100</width>
 							<height>51</height>
 							<align>center</align>
 							<font>Font_Reg19</font>
 							<scroll>false</scroll>
 							<label>$VAR[TriPanelListValue1Var]</label>
-						</control>
+						</control> 
 						<control type="label">
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>68</left>
+							<left>18</left>
 							<width>100</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -782,9 +781,9 @@
 							<font>Font_Reg19</font>
 							<textcolor>grey2</textcolor>
 						</control>
-						<control type="label">
+						<control type="label">	 
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp) + !stringcompare(container.folderpath,special://profile/playlists/video/BestPicture.xsp)</visible>
-							<left>790</left>
+							<left>632</left>
 							<width>160</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -792,10 +791,10 @@
 							<scroll>false</scroll>
 							<align>right</align>
 							<textcolor>grey2</textcolor>
-						</control>
+						</control> 
 						<control type="image">
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>795</left>
+							<left>800</left>
 							<top>7</top>
 							<width>35</width>
 							<height>35</height>
@@ -848,7 +847,7 @@
 						</control>
 						<control type="label">
 							<visible>stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>60</left>
+							<left>22</left>
 							<width>75</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -868,17 +867,17 @@
 						</control>
 						<control type="label">
 							<visible>stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>795</left>
+							<left>745</left>
 							<width>100</width>
 							<height>51</height>
 							<align>center</align>
 							<font>Font_Reg19</font>
 							<scroll>false</scroll>
 							<label>$VAR[TriPanelListValue1Var]</label>
-						</control>
-						<control type="label">
+						</control>	   
+    					<control type="label">
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>68</left>
+							<left>18</left>
 							<width>100</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -895,10 +894,10 @@
 							<label>$VAR[ListLabel1Var]</label>
 							<font>Font_Reg19</font>
 							<textcolor>grey2</textcolor>
-						</control>
+						</control>		  
 						<control type="label">
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp) + !stringcompare(container.folderpath,special://profile/playlists/video/BestPicture.xsp)</visible>
-							<left>790</left>
+							<left>632</left>
 							<width>160</width>
 							<height>51</height>
 							<font>Font_Reg19</font>
@@ -909,7 +908,7 @@
 						</control>
 						<control type="image">
 							<visible>!stringcompare(container.folderpath,special://profile/playlists/video/IMDBTop250.xsp)</visible>
-							<left>795</left>
+							<left>800</left>
 							<top>7</top>
 							<width>35</width>
 							<height>35</height>
@@ -943,7 +942,7 @@
 							</control>
 						</control>
 						<control type="label">
-							<left>68</left>
+							<left>18</left>
 							<width>100</width>
 							<height>49</height>
 							<align>center</align>
@@ -970,7 +969,7 @@
 							<textcolor>grey2</textcolor>
 						</control>
 						<control type="label">
-							<left>795</left>
+							<left>635</left>
 							<width>160</width>
 							<height>49</height>
 							<align>right</align>
@@ -1033,7 +1032,7 @@
 							<animation effect="fade" start="100" end="25" tween="sine" easing="inout" time="240" condition="!Control.HasFocus(52)">Conditional</animation>
 						</control>
 						<control type="label">
-							<left>68</left>
+							<left>18</left>
 							<width>100</width>
 							<height>49</height>
 							<align>center</align>
@@ -1057,7 +1056,7 @@
 							<font>Font_Reg30_2</font>
 						</control>
 						<control type="label">
-							<left>795</left>
+							<left>635</left>
 							<width>160</width>
 							<height>49</height>
 							<align>right</align>
@@ -1094,7 +1093,8 @@
 					<ondown>70</ondown>
 					<onright>52</onright>
 					<onleft>9000</onleft>
-					<!--<animation effect="fade" time="0" start="100" end="20" condition="!Control.HasFocus(70)">Conditional</animation>--></control>
+					<!--<animation effect="fade" time="0" start="100" end="20" condition="!Control.HasFocus(70)">Conditional</animation>-->
+				</control>
 			</control>
 		</control>
 	</include>

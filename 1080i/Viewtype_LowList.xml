@@ -708,8 +708,8 @@
                         <font>Font_Bold28_Caps</font>
                         <textcolor>grey2</textcolor>
                     </control>
-                    <control type="label">
-                        <left>710</left>
+			        <control type="label">
+                        <left>670</left>
                         <width>80</width>
                         <height>66</height>
                         <align>center</align>
@@ -765,8 +765,8 @@
                         <label>$VAR[LowListSubTitleVar]</label>
                         <font>Font_Info</font>
                     </control>
-                    <control type="label">
-                        <left>710</left>
+				    <control type="label">
+                        <left>670</left>
                         <width>80</width>
                         <height>33</height>
                         <align>center</align>
@@ -774,7 +774,7 @@
                         <font>Font_Bold28</font>
                     </control>
                     <control type="label">
-                        <left>710</left>
+                        <left>670</left>
                         <top>33</top>
                         <width>80</width>
                         <height>33</height>
@@ -809,8 +809,8 @@
                             <texture>common/black.png</texture>
                             <bordersize>5</bordersize>
                         </control>
-                        <control type="label">
-                            <left>416</left>
+						<control type="label">
+                            <left></left>
                             <top>8</top>
                             <width>816</width>
                             <height>146</height>
@@ -864,8 +864,8 @@
                             <bordertexture border="5">views/addonwall_select.png</bordertexture>
                             <bordersize>5</bordersize>
                         </control>
-                        <control type="label">
-                            <left>416</left>
+						<control type="label">
+                            <left></left>
                             <top>8</top>
                             <width>816</width>
                             <height>146</height>

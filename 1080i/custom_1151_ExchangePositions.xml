@@ -46,7 +46,7 @@
                         <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                     </control>
                     <control type="label">
-                        <left>150</left>
+                        <left></left>
                         <width>300</width>
                         <height>40</height>
                         <textoffsetx>10</textoffsetx>
@@ -64,7 +64,7 @@
                             <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                         </control>
                         <control type="label">
-                            <left>150</left>
+                            <left></left>
                             <width>300</width>
                             <height>40</height>
                             <textoffsetx>10</textoffsetx>

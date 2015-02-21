@@ -839,7 +839,7 @@
 				<texture>common/circle.png</texture>
 			</control>
 			<control type="label">
-				<left>34</left>
+				<left>10</left>
 				<top>14</top>
 				<width>50</width>
 				<height>38</height>
@@ -863,7 +863,7 @@
 				<texture>common/circle.png</texture>
 			</control>
 			<control type="label">
-				<left>53</left>
+				<left>28</left>
 				<top>34</top>
 				<width>50</width>
 				<height>38</height>
@@ -887,7 +887,7 @@
 				<texture>common/circle.png</texture>
 			</control>
 			<control type="label">
-				<left>49</left>
+				<left>24</left>
 				<top>29</top>
 				<width>50</width>
 				<height>38</height>

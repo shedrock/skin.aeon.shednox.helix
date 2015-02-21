@@ -3,6 +3,29 @@
  ---------------------------------------------
 
 
+February 18, 2015
+
+- GUI version bump from 5.0.0 to 5.3.0
+- Renamed labels in language/English/strings.po
+- Updated German language file in language/German/strings.po
+- Updated addon.xml with new GUI version, as well as ShedNox version bump 2.0 to 3.0
+- Updated skin version from 2.0 to 3.0 in SkinSettings.xml
+- Fixed issue with floor label in Includes_Viewtypes.xml - Thanks to Mike_Doc
+- Updated the following files to use the new YouTube 5.0.5 (2015-02-01) search string
+
+o custom_1140_FeaturedDialog.xml
+o DialogAlbumInfo.xml
+o DialogContextMenu.xml
+o Includes_Music.xml
+o script-Actors-DialogInfo.xml
+o script-Actors-DialogVideoInfo.xml
+
+
+February 13, 2015
+
+- New studio, audio and language flags added - Thanks to neurosis13
+- Replaced sets images with those from Schimi2k
+
 
 February 04, 2015
 

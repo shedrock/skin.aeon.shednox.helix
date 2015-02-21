@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="skin.aeon.shednox.helix" version="2.0" name="Aeon Shednox Helix" provider-name="Shednox|Brimstone">
+<addon id="skin.aeon.shednox.helix" version="3.0" name="Aeon Shednox Helix" provider-name="Shednox|Brimstone">
   <requires>
-    <import addon="xbmc.gui" version="5.0.0"/>
+    <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="script.favourites" version="6.0.1"/>
     <import addon="script.playlists" version="2.0.1"/>
     <import addon="script.tv.show.next.aired" version="6.0.13"/>

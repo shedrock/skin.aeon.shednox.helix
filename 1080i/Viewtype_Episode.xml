@@ -133,7 +133,7 @@
                 <visible>Container.Content(songs)</visible>
             </control>
             <control type="label">
-                <left>1280</left>
+                <left>590</left>
                 <width>690</width>
                 <height>45</height>
                 <align>right</align>
@@ -143,7 +143,7 @@
                 <textcolor>$VAR[TitleColorVar]</textcolor>
             </control>
             <control type="label">
-                <left>1280</left>
+                <left>330</left>
                 <top>43</top>
                 <width>950</width>
                 <height>45</height>
@@ -181,7 +181,7 @@
                     <visible>Container.Content(songs)</visible>
                 </control>
                 <control type="label">
-                    <left>838</left>
+                    <left>13</left>
                     <top>22</top>
                     <width>825</width>
                     <align>right</align>
@@ -192,8 +192,8 @@
                     <scrollspeed>40</scrollspeed>
                     <visible>!Container.Content(songs)</visible>
                 </control>
-                <control type="label">
-                    <left>838</left>
+			    <control type="label">
+                    <left>13</left>
                     <top>22</top>
                     <width>825</width>
                     <align>right</align>
@@ -205,7 +205,7 @@
                     <visible>Container.Content(songs)</visible>
                 </control>
                 <control type="label">
-                    <left>838</left>
+                    <left>13</left>
                     <top>70</top>
                     <width>825</width>
                     <height>90</height>
@@ -231,7 +231,7 @@
     <include name="EpisodeViewtypeVideoLayouts">
         <itemlayout width="950" height="90" condition="![[Skin.HasSetting(episodebanner) | Skin.HasSetting(episodelogo)] + [Container.Content(tvshows) | Container.Content(movies)]]">
             <control type="label">
-                <left>1280</left>
+                <left>590</left>
                 <width>690</width>
                 <height>45</height>
                 <align>right</align>
@@ -241,7 +241,7 @@
                 <textcolor>$VAR[TitleColorVar]</textcolor>
             </control>
             <control type="label">
-                <left>1280</left>
+                <left>330</left>
                 <top>50</top>
                 <width>950</width>
                 <height>45</height>
@@ -272,7 +272,7 @@
                 <animation effect="slide" end="0,-20" time="240" tween="cubic" easing="inout" condition="Container.Content(seasons)">Conditional</animation>
             </control>			
             <control type="label">
-                <left>1312</left>
+                <left>1272</left>
                 <top>25</top>
                 <width>80</width>
                 <height>45</height>
@@ -306,8 +306,8 @@
                     <texture background="true">$VAR[LogoVarList]</texture>
                     <visible>IsEmpty(ListItem.Art(banner)) + IsEmpty(ListItem.Art(tvshow.banner))</visible>
                 </control>
-                <control type="label">
-                    <left>972</left>
+				<control type="label">
+                    <left>708</left>
                     <top>8</top>
                     <width>528</width>
                     <height>105</height>
@@ -364,7 +364,7 @@
                 <control type="group">
                     <visible>IsEmpty(ListItem.Art(clearlogo))</visible>
                     <control type="label">
-                        <left>1240</left>
+                        <left>372</left>
                         <top>94</top>
                         <width>870</width>
                         <align>right</align>
@@ -373,8 +373,9 @@
                         <shadowcolor>floorshadow</shadowcolor>
                         <textcolor>white2</textcolor>
                     </control>
+					
                     <control type="label">
-                        <left>1240</left>
+                        <left>370</left>
                         <top>0</top>
                         <width>870</width>
                         <align>right</align>
@@ -412,8 +413,8 @@
                     <bordersize>19.5</bordersize>
                 </control>
                 <control type="group">
-                    <left>-20</left>
-                    <top>130</top>
+                    <left>-27</left>
+                    <top>117</top>
                     <include>UnwatchedIcon</include>
                 </control>
             </control>
@@ -440,8 +441,8 @@
                 <animation type="Conditional" reversible="false" condition="Control.HasFocus(514) + [!Container(514).OnNext + !Container(514).OnPrevious]">
                     <effect type="fade" end="100" time="160" />
                 </animation>
-                <control type="label">
-                    <left>838</left>
+			    <control type="label">
+                    <left>13</left>
                     <top>22</top>
                     <width>825</width>
                     <align>right</align>
@@ -452,8 +453,8 @@
                     <scrollspeed>40</scrollspeed>
                     <visible>!IsEmpty(ListItem.Title)</visible>
                 </control>
-                <control type="label">
-                    <left>838</left>
+				<control type="label">
+                    <left>-112</left>
                     <top>75</top>
                     <width>950</width>
                     <height>90</height>
@@ -505,7 +506,7 @@
 				<visible>System.HasAddon(script.videoextras)</visible>
 			</control>				
             <control type="label">
-                <left>1330</left>
+                <left>1290</left>
                 <top>90</top>
                 <width>80</width>
                 <height>45</height>
@@ -520,8 +521,8 @@
                 <animation type="Conditional" reversible="false" condition="Control.HasFocus(514) + [!Container(514).OnNext + !Container(514).OnPrevious]">
                     <effect type="fade" end="100" time="160" />
                 </animation>
-                <control type="label">
-                    <left>838</left>
+			    <control type="label">
+                    <left>13</left>
                     <top>22</top>
                     <width>825</width>
                     <align>right</align>
@@ -533,7 +534,7 @@
                     <visible>!IsEmpty(ListItem.Title)</visible>
                 </control>
                 <control type="label">
-                    <left>838</left>
+                    <left>-112</left>
                     <top>70</top>
                     <width>950</width>
                     <height>90</height>

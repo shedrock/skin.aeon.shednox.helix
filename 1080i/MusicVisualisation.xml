@@ -1082,7 +1082,7 @@
                     <preloaditems>2</preloaditems>
                     <itemlayout width="614" height="30">
                         <control type="label">
-                            <posx>425</posx>
+                            <posx>125</posx>
                             <width>300</width>
                             <height>34</height>
                             <font>Font_Info_Caps</font>
@@ -1093,7 +1093,7 @@
                     </itemlayout>
                     <focusedlayout width="614" height="30">
                         <control type="label">
-                            <posx>425</posx>
+                            <posx>125</posx>
                             <width>300</width>
                             <height>34</height>
                             <font>Font_Info_Caps</font>

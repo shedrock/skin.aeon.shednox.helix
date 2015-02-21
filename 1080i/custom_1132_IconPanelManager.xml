@@ -99,7 +99,7 @@
                         <colordiffuse>99FFFFFF</colordiffuse>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left>12</left>
                         <top>200</top>
                         <width>240</width>
                         <height>50</height>
@@ -139,7 +139,7 @@
                         <colordiffuse>99FFFFFF</colordiffuse>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left>12</left>
                         <top>200</top>
                         <width>240</width>
                         <height>50</height>

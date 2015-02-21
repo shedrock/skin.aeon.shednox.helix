@@ -1423,6 +1423,10 @@ msgctxt "#31689"
 msgid "Disable library stats"
 msgstr "Disable library stats"
 
+msgctxt "#31690"
+msgid "Disable rss panel"
+msgstr "Disable rss panel"
+
 msgctxt "#31691"
 msgid "Toggle position"
 msgstr "Toggle position"
@@ -2238,6 +2242,10 @@ msgctxt "#33000"
 msgid "Colored Mpaa Flags"
 msgstr "Colored Mpaa Flags"
 
+msgctxt "#33001"
+msgid "Reloaded Mpaa Flags"
+msgstr "Reloaded Mpaa Flags"
+
 msgctxt "#33003"
 msgid "Extended Rating"
 msgstr "Extended Rating"
@@ -2387,5 +2395,6 @@ msgid "TvGuide Icons"
 msgstr "TvGuide Icons"
 
 msgctxt "#32007"
-msgid "Reloaded Mpaa Flags"
-msgstr "Reloaded Mpaa Flags"
+msgid "Infopanel options"
+msgstr "Infopanel options"
+

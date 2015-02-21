@@ -31,7 +31,7 @@
                 <include>Animation_VisibleChange400</include>
                 <include>PanelGlowFade</include>
             </control>
-            <control type="image">
+		    <control type="image">
                 <left>285</left>
                 <top>580</top>
                 <width>1350</width>
@@ -56,11 +56,14 @@
                 <onright>451</onright>
                 <onup>450</onup>
                 <ondown>450</ondown>
-                <control type="button" id="900">
+               
+<!-- Infopanel Label start --
+			   <control type="button" id="900">
                     <label>$LOCALIZE[31166]</label>
                     <include>Objects_MediaMenuLabelAlt2</include>
                     <enable>no</enable>
                 </control>
+<!-- Infopanel Label end -->
                 <control type="button" id="904">
                     <label>$LOCALIZE[31272]:</label>
                     <label2>[COLOR $VAR[FontColorVar]]$VAR[LandscapeThumbSettingsVar][/COLOR]</label2>
@@ -142,7 +145,7 @@
                         <visible>Stringcompare(Control.GetLabel(4420),ListItem.Property(Type))</visible>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>
@@ -175,7 +178,7 @@
                         <visible>Stringcompare(Control.GetLabel(4420),ListItem.Property(type))</visible>
                     </control>
                     <control type="label">
-                        <left>125</left>
+                        <left></left>
                         <top>115</top>
                         <width>250</width>
                         <height>30</height>
@@ -263,11 +266,12 @@
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <align>center</align>
             </control>
+<!--Infopanel Options changed 31176 to 32007 -->
             <control type="label">
                 <top>610</top>
                 <left>1050</left>
                 <width>720</width>
-                <label>31176</label>
+                <label>32007</label>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <align>center</align>
             </control>
