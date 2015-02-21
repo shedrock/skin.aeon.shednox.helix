@@ -51,7 +51,7 @@
 				<texture>thumbs/multiplex_labelblock.png</texture>
 			</control>
 			<control type="label">
-				<left>249</left>
+				<left>60</left>
 				<top>300</top>
 				<width>375</width>
 				<height>90</height>
@@ -182,6 +182,7 @@
 					<visible>Control.IsVisible(503) + Skin.HasSetting(landscapeonelogo) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)]</visible>
 					<visible>![Container.OnNext | Container.OnPrevious]</visible>
 				</control>
+				-----------brnetos
 				<control type="label">
 					<left>510</left>
 					<top>1000</top>
@@ -219,7 +220,7 @@
 					<top>1000</top>
 					<width>900</width>
 					<align>center</align>
-					<label>$VAR[LandscapeLogoLabelVar]</label>
+					
 					<font>Font_Bold34</font>
 					<shadowcolor>black</shadowcolor>
 					<include>Animation_VisibleChange200</include>
@@ -323,7 +324,7 @@
 		<control type="group">
 			<visible>IsEmpty(ListItem.Art(clearlogo))</visible>
 			<control type="label">
-				<left>248</left>
+				<left>13</left>
 				<top>100</top>
 				<width>470</width>
 				<align>center</align>
@@ -357,7 +358,7 @@
 		<control type="group">
 			<visible>IsEmpty(ListItem.Art(clearlogo)) + IsEmpty(ListItem.Art(clearart))</visible>
 			<control type="label">
-				<left>248</left>
+				<left>13</left>
 				<top>100</top>
 				<width>470</width>
 				<align>center</align>
