@@ -8,10 +8,21 @@
 			<animation effect="slide" end="0,135" time="160" tween="cubic" condition="!VideoPlayer.Content(LiveTV) + Window.IsVisible(fullscreeninfo) + IsEmpty(Window(home).Property(morefullscreeninfo)) + !Player.Paused">Conditional</animation>
 			<!-- codec infos -->
 			<control type="image">
+			<visible>!VideoPlayer.Content(LiveTV)</visible>
 				<left>0</left>
 				<top>0</top>
 				<width>1920</width>
 				<height>340</height>
+				<texture flipy="true">views/lowlist_panelback.png</texture>
+				<animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
+				<animation effect="slide" end="0,270" time="160" tween="cubic" condition="VideoPlayer.Content(LiveTV) + System.GetBool(pvrplayback.signalquality)">Conditional</animation>
+			</control>
+			<control type="image">
+				<visible>VideoPlayer.Content(LiveTV)</visible>
+				<left>0</left>
+				<top>-270</top>
+				<width>1920</width>
+				<height>630</height>
 				<texture flipy="true">views/lowlist_panelback.png</texture>
 				<animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
 				<animation effect="slide" end="0,270" time="160" tween="cubic" condition="VideoPlayer.Content(LiveTV) + System.GetBool(pvrplayback.signalquality)">Conditional</animation>
@@ -54,9 +65,9 @@
 					<textcolor>grey2</textcolor>
 				</control>
 			</control>
-			<control type="group">
-				<left>25</left>
-				<top>220</top>
+		    <control type="group">
+				<left>-20</left>
+				<top>320</top>
 				<visible>VideoPlayer.Content(LiveTV) + System.GetBool(pvrplayback.signalquality)</visible>
 				<control type="label">
 					<description>Header</description>
