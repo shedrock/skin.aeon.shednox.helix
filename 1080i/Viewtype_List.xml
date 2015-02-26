@@ -519,8 +519,29 @@
                         <height>36</height>
                         <label>$VAR[ListLabel2Var]</label>
                         <textcolor>grey2</textcolor>
-                    </control>
+						<!-- MAD - Added visible to control size display -->
+						<visible>!Container.Content(movies) + !Container.Content(tvshows)</visible>
+			        </control>
                     <control type="label">
+						<!-- MAD - Alter left to replace size -->
+                        <!--left>899</left-->
+						<left>158</left>
+                        <top>54</top>
+						<!-- Alter width also for genre -->
+                        <!--width>170</width-->
+						<width>680</width>
+                        <height>36</height>
+						<!-- Alter align for genre -->
+                        <!--align>center</align-->
+						<align>left</align>
+                        <label>$INFO[ListItem.Genre]</label>
+                        <font>Font_Info</font>
+						<!-- MAD - alter visible -->
+                        <!--visible>Window.IsActive(programs) + !Container.Content(addons) | Container.Content(movies)</visible-->
+						<visible>Container.Content(movies) | Container.Content(tvshows)</visible>
+                        <textcolor>grey2</textcolor>
+                    </control>
+					<control type="label">
                         <left>899</left>
                         <top>3</top>
                         <width>170</width>
@@ -620,6 +641,7 @@
                         <width>720</width>
                         <height>36</height>
                         <label>$VAR[ListLabel2Var]</label>
+						<visible>!Container.Content(movies) + !Container.Content(tvshows)</visible>
                     </control>
                     <control type="label">
                         <left>899</left>
@@ -633,14 +655,14 @@
                         <animation effect="slide" end="0,18" time="0" condition="Container.Content(seasons)">Conditional</animation>
                     </control>
                     <control type="label">
-                        <left>899</left>
+                        <left>158</left>
                         <top>54</top>
-                        <width>170</width>
+                        <width>680</width>
                         <height>36</height>
-                        <align>center</align>
+                        <align>left</align>
                         <label>$INFO[ListItem.Genre]</label>
                         <font>Font_Info</font>
-                        <visible>Window.IsActive(programs) + !Container.Content(addons)</visible>
+                        <visible>Container.Content(movies) | Container.Content(tvshows)</visible>
                     </control>
                     <control type="image">
                         <left>900</left>

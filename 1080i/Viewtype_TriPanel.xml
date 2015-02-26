@@ -964,7 +964,7 @@
 							<top>42</top>
 							<width>680</width>
 							<height>49</height>
-							<label>$VAR[ListLabel2Var]</label>
+							<label>$VAR[TriPanelValue2Var]</label>
 							<font>Font_Reg30_2</font>
 							<textcolor>grey2</textcolor>
 						</control>
@@ -1052,7 +1052,7 @@
 							<top>42</top>
 							<width>680</width>
 							<height>49</height>
-							<label>$VAR[ListLabel2Var]</label>
+							<label>$VAR[TriPanelValue2Var]</label>
 							<font>Font_Reg30_2</font>
 						</control>
 						<control type="label">
