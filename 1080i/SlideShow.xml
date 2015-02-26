@@ -10,7 +10,7 @@
             <texture>common/bgcolor.png</texture>
            <colordiffuse>7fffffff</colordiffuse>
 		   <include>Animation_VisibleChange400</include>
-		   <visible>!isEmpty(Slideshow.EXIFComment)</visible>
+		   <visible>!isEmpty(Slideshow.EXIFComment) + System.GetBool(pictures.usetags)</visible>
         </control>
         <control type="image">
             <left>1450</left>
@@ -20,7 +20,7 @@
             <texture>common/bgcolor.png</texture>
            <colordiffuse>7fffffff</colordiffuse>
 		   <include>Animation_VisibleChange400</include>
-		   <visible>isEmpty(Slideshow.EXIFComment)</visible>
+		   <visible>isEmpty(Slideshow.EXIFComment) + System.GetBool(pictures.usetags)</visible>
         </control>		
         <control type="image">
             <left>0</left>
@@ -30,7 +30,7 @@
             <texture>common/bgcolor.png</texture>
            <colordiffuse>7fffffff</colordiffuse>
 		   <include>Animation_VisibleChange400</include>
-		   <visible>!isEmpty(Slideshow.LongEXIFTime) | !isEmpty(Slideshow.CameraModel)</visible>
+		   <visible>!isEmpty(Slideshow.LongEXIFTime) | !isEmpty(Slideshow.CameraModel) + System.GetBool(pictures.usetags)</visible>
         </control>		
         <control type="label">
             <left>80</left>
@@ -41,7 +41,7 @@
             <font>font24</font>
             <textcolor>white</textcolor>
             <label>$INFO[Slideshow.LongEXIFTime]</label>
-			<visible>!isEmpty(Slideshow.Filedate)</visible>
+			<visible>!isEmpty(Slideshow.Filedate) + System.GetBool(pictures.usetags)</visible>
         </control>
         <control type="label">
             <left>-60</left>
@@ -52,7 +52,7 @@
             <font>font24</font>
             <textcolor>white</textcolor>
             <label>$INFO[Slideshow.CameraModel]</label>
-			<visible>!isEmpty(Slideshow.CameraModel)</visible>
+			<visible>!isEmpty(Slideshow.CameraModel) + System.GetBool(pictures.usetags)</visible>
         </control>	
 		<control type="group">
 			<left>1480</left>
@@ -65,7 +65,7 @@
 				<textcolor>white</textcolor>
 				<label>$LOCALIZE[21800]: $INFO[Slideshow.FileName]</label>
 				<autoscroll delay="3000" time="1000" repeat="10000">true</autoscroll>
-				<visible>!isEmpty(Slideshow.FileName)</visible>
+				<visible>!isEmpty(Slideshow.FileName) + System.GetBool(pictures.usetags)</visible>
 			</control>	
 			<control type="label">
 				<top>30</top>
@@ -76,7 +76,7 @@
 				<textcolor>white</textcolor>
 				<label>$LOCALIZE[21826]: $INFO[Slideshow.Aperture]</label>
 				<autoscroll delay="3000" time="1000" repeat="10000">true</autoscroll>
-				<visible>!isEmpty(Slideshow.Aperture)</visible>
+				<visible>!isEmpty(Slideshow.Aperture) + System.GetBool(pictures.usetags)</visible>
 			</control>
 			<control type="label">
 				<top>60</top>
@@ -87,11 +87,11 @@
 				<textcolor>white</textcolor>
 				<label>$LOCALIZE[21828]: $INFO[Slideshow.FlashUsed]</label>
 				<autoscroll delay="3000" time="1000" repeat="10000">true</autoscroll>
-				<visible>!isEmpty(Slideshow.FlashUsed)</visible>
+				<visible>!isEmpty(Slideshow.FlashUsed) + System.GetBool(pictures.usetags)</visible>
 			</control>						
 		</control>	
 		<control type="group">
-			<visible>!isEmpty(Slideshow.EXIFComment)</visible>
+			<visible>!isEmpty(Slideshow.EXIFComment) + System.GetBool(pictures.usetags)</visible>
 			<control type="label">
 				<left>80</left>
 				<top>960</top>
@@ -100,7 +100,8 @@
 				<align>left</align>
 				<font>font24</font>
 				<textcolor>white</textcolor>
-				<label>$LOCALIZE[21824]: $INFO[ Slideshow.EXIFComment]</label>
+				<!--label>$LOCALIZE[21824]: $INFO[ Slideshow.EXIFComment]</label-->
+				<label>$LOCALIZE[21824]: </label>
 			</control>
 			<control type="textbox">
 				<left>280</left>
