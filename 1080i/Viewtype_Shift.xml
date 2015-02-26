@@ -354,7 +354,9 @@
                 <control type="label">
                     <left>560</left>
                     <top>850</top>
-                    <width>1245</width>
+					<!-- MAD - Shorten title lenght -->
+                    <!--width>1245</width-->
+					<width>910</width>
                     <label>$VAR[FirstLabelVar]</label>
                     <font>Font_ShowcaseMainLabel2_Caps</font>
                     <shadowcolor>floorshadow</shadowcolor>
