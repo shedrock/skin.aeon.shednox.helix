@@ -124,9 +124,9 @@
                 <control type="image">
                     <left>164</left>
                     <top>166</top>
-                    <width>204</width>
-                    <height>303</height>
-                    <aspectratio scalediffuse="false">scale</aspectratio>
+                    <width>215</width>
+                    <height>315</height>
+                    <aspectratio scalediffuse="false">fit</aspectratio>
                     <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
                     <fadetime>275</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
@@ -134,9 +134,9 @@
 				 <control type="image">
                     <left>164</left>
                     <top>166</top>
-                    <width>204</width>
-                    <height>303</height>
-                    <aspectratio scalediffuse="false">scale</aspectratio>
+                    <width>215</width>
+                    <height>315</height>
+                    <aspectratio scalediffuse="false">fit</aspectratio>
                     <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
                     <fadetime>275</fadetime>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -144,9 +144,9 @@
                 <control type="image">
                     <left>144</left>
                     <top>146</top>
-                    <width>243</width>
-                    <height>342</height>
-                    <aspectratio scalediffuse="false">stretch</aspectratio>
+                    <width>252</width>
+                    <height>353</height>
+                    <aspectratio scalediffuse="false">fit</aspectratio>
                     <texture diffuse="thumbs/movieposter_mask.png">thumbs/thumb_glass_noreflect.png</texture>
                     <bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
                     <bordersize>19</bordersize>
@@ -173,7 +173,7 @@
                     <top>754</top>
                     <width>204</width>
                     <height>303</height>
-                    <aspectratio scalediffuse="false">scale</aspectratio>
+                    <aspectratio scalediffuse="false">fit</aspectratio>
                     <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$INFO[ListItem.Art(poster)]</texture>
                     <fadetime>275</fadetime>
 					<visible>Stringcompare(Window(home).Property(actualViewtype),BigFan) + ![Container.Content(movies) | Container.Content(tvshows) | Container.Content(genres) | Container.Content(sets)] | Container.Content(seasons)</visible>

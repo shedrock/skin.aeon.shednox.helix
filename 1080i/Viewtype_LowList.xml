@@ -556,7 +556,7 @@
                         <top>-130</top>
                         <width>399</width>
                         <height>600</height>
-                        <aspectratio scalediffuse="false">scale</aspectratio>
+                        <aspectratio scalediffuse="false">fit</aspectratio>
                         <texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 						<visible>Skin.HasSetting(genrethumbs)</visible>
                     </control>
@@ -564,7 +564,7 @@
                         <top>-130</top>
                         <width>399</width>
                         <height>600</height>
-                        <aspectratio scalediffuse="false">scale</aspectratio>
+                        <aspectratio scalediffuse="false">fit</aspectratio>
                         <texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 						<visible>!Skin.HasSetting(genrethumbs)</visible>
                     </control>
@@ -580,7 +580,7 @@
                     </control>
                     <control type="image">
                         <left>2</left>
-                        <top>472</top>
+                        <top>454</top>
                         <width>395</width>
                         <height>300</height>
                         <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
@@ -591,7 +591,7 @@
                     </control>
 					  <control type="image">
                         <left>2</left>
-                        <top>472</top>
+                        <top>454</top>
                         <width>395</width>
                         <height>300</height>
                         <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>

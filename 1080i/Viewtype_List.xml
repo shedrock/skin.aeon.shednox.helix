@@ -103,31 +103,32 @@
             </control>
             <control type="image">
                 <left>1</left>
-                <top>1</top>
+                <top>39</top>
                 <width>509</width>
-                <height>764</height>
-                <aspectratio scalediffuse="false">scale</aspectratio>
+                <height>732</height>
+                <aspectratio scalediffuse="false">fit</aspectratio>
                 <texture diffuse="thumbs/movieposter_mask.png">common/bgcolor.png</texture>
                 <fadetime>IconCrossfadeTime2</fadetime>
             </control>
             <control type="image">
                 <left>-19</left>
-                <top>-19</top>
-                <width>549</width>
-                <height>804</height>
-                <aspectratio scalediffuse="false">scale</aspectratio>
+                <top>20</top>
+                <width>849</width>
+                <height>770</height>
+                <aspectratio scalediffuse="false">fit</aspectratio>
                 <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
                 <fadetime>IconCrossfadeTime2</fadetime>
                 <bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
                 <bordersize>19</bordersize>
 				<visible>!Skin.HasSetting(genrethumbs)</visible>
             </control>
+			<!-- Cover -->
 			  <control type="image">
                 <left>-19</left>
-                <top>-19</top>
+                <top>20</top>
                 <width>549</width>
-                <height>804</height>
-                <aspectratio scalediffuse="false">scale</aspectratio>
+                <height>770</height>
+                <aspectratio scalediffuse="false">fit</aspectratio>
                 <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
                 <fadetime>IconCrossfadeTime2</fadetime>
                 <bordertexture border="19.5">thumbs/poster_shadow.png</bordertexture>
@@ -143,29 +144,30 @@
 				<visible>System.HasAddon(script.videoextras)</visible>
 			</control>				
             <control type="image">
-                <top>766</top>
+                <top>772</top>
                 <width>510</width>
                 <height>765</height>
-                <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+                <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
                 <texture diffuse="thumbs/movieposter_mask_reflect.png" flipy="true" background="true" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
                 <fadetime>IconCrossfadeTime2</fadetime>
                 <colordiffuse>d0FFFFFF</colordiffuse>
 				<visible>!Skin.HasSetting(genrethumbs)</visible>
             </control>
 			 <control type="image">
-                <top>766</top>
+                <top>772</top>
                 <width>510</width>
                 <height>765</height>
-                <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+                <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
                 <texture diffuse="thumbs/movieposter_mask_reflect.png" flipy="true" background="true" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
                 <fadetime>IconCrossfadeTime2</fadetime>
                 <colordiffuse>d0FFFFFF</colordiffuse>
 				<visible>Skin.HasSetting(genrethumbs)</visible>
             </control>
             <control type="image">
+			     <top>40</top>
                 <width>510</width>
-                <height>765</height>
-                <aspectratio scalediffuse="false">stretch</aspectratio>
+                <height>734</height>
+                <aspectratio scalediffuse="false">fit</aspectratio>
                 <texture>thumbs/thumb_glass.png</texture>
             </control>
         </control>
