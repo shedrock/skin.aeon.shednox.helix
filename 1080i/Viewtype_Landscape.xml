@@ -197,7 +197,7 @@
 					<scroll>true</scroll>
 					<scrollspeed>30</scrollspeed>
 					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)]]</visible>
-					<visible>!Container.Content(episodes) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies]]</visible>
+					<visible>!Container.Content(episodes) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]]</visible>
 				</control>
 				<control type="label">
 					<left>510</left>
@@ -214,7 +214,7 @@
 					<scrollspeed>30</scrollspeed>
 					<visible>Container.Content(episodes)</visible>
 					<!--visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [Container.Content(tvshows) | Container.Content(movies)]]</visible-->
-					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies]]]</visible>
+					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]]]</visible>
 				</control>
 				<control type="label">
 					<left>510</left>
@@ -227,7 +227,7 @@
 					<include>Animation_VisibleChange200</include>
 					<scroll>true</scroll>
 					<scrollspeed>30</scrollspeed>
-					<visible>Skin.HasSetting(landscapelogo) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies]] + !Control.HasFocus(61)</visible>
+					<visible>Skin.HasSetting(landscapelogo) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]] + !Control.HasFocus(61)</visible>
 				</control>
 			</control>
 		</control>
