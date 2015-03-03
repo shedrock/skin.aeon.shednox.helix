@@ -341,8 +341,8 @@ msgid "Rating"
 msgstr "Note"
 
 msgctxt "#31096"
-msgid "Search on YouTube"
-msgstr "Rechercher sur YouTube"
+msgid "Search YouTube"
+msgstr "Recherche YouTube"
 
 msgctxt "#31097"
 msgid "Classic OSD style"
@@ -1329,7 +1329,7 @@ msgid "Show 'Next Aired' info"
 msgstr "Afficher info 'Prochaine diffusion'"
 
 msgctxt "#31639"
-msgid "Hide video thumb on info screen"
+msgid "Hide video thumb on info and paused screens"
 msgstr "Cacher la vignette vidéo sur l'écran d'info"
 
 msgctxt "#31640"
