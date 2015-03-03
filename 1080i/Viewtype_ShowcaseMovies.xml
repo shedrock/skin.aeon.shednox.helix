@@ -101,13 +101,13 @@
 				<control type="image">
 					<include>MovieShowcaseThumb</include>
 					<texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ShowcaseItem0Var]</texture>
-					<visible>[Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
+					<visible>Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
 				</control>
 				<control type="image">
 					<include>MovieShowcaseThumb</include>
 					<texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ShowcaseItem0Var1]</texture>
-					<visible>[Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
+					<visible>Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
 				</control>
 				<control type="image">
@@ -182,13 +182,13 @@
 				<control type="image">
 					<include>MovieShowcaseThumb</include>
 					<texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ShowcaseItem0Var]</texture>
-					<visible>[Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
+					<visible>Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
 				</control>
 				<control type="image">
 					<include>MovieShowcaseThumb</include>
 					<texture background="true" diffuse="thumbs/thumb_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ShowcaseItem0Var1]</texture>
-					<visible>[Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
+					<visible>Skin.HasSetting(NoCaseForMovieset) + Container.Content(sets)</visible>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
 				</control>
 				<!-- MikeBZH44 start : If no case for movieset then larger thumbnail -->

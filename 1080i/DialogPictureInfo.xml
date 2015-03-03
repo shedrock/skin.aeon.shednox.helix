@@ -65,11 +65,11 @@
                         <textcolor>grey2</textcolor>
                     </control>
                     <control type="label">
-                        <left>640</left>
-                        <width>750</width>
+                        <left>230</left>
+                        <width>450</width>
                         <height>60</height>
                         <textoffsetx>15</textoffsetx>
-                        <align>right</align>
+                        <align>left</align>
                         <label>$INFO[ListItem.Label2]</label>
                         <font>Font_Reg30_2</font>
                         <shadowcolor>black</shadowcolor>
@@ -94,11 +94,11 @@
                             <textcolor>grey2</textcolor>
                         </control>
                         <control type="label">
-                            <left>640</left>
-                            <width>640</width>
+                            <left>230</left>
+                            <width>450</width>
                             <height>60</height>
                             <textoffsetx>15</textoffsetx>
-                            <align>right</align>
+                            <align>left</align>
                             <label>$INFO[ListItem.Label2]</label>
                             <font>Font_Reg30_2</font>
                             <shadowcolor>black</shadowcolor>
@@ -122,11 +122,11 @@
                             <shadowcolor>black</shadowcolor>
                         </control>
                         <control type="label">
-                            <left>640</left>
-                            <width>640</width>
+                            <left>230</left>
+                            <width>450</width>
                             <height>60</height>
                             <textoffsetx>15</textoffsetx>
-                            <align>right</align>
+                            <align>left</align>
                             <label>$INFO[ListItem.Label2]</label>
                             <font>Font_Reg30_2</font>
                             <shadowcolor>black</shadowcolor>

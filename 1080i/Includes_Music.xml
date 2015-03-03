@@ -2077,7 +2077,7 @@
                             <font>Font_Reg37_Caps</font>
                             <textcolor>$VAR[TitleColorVar]</textcolor>
                         </control>
-                        <control type="group">
+						<control type="group">
                             <left>-90</left>
                             <top>27</top>
                             <control type="image">
@@ -2131,8 +2131,8 @@
                                     <height>48</height>
                                     <texture border="3">osd/osd_settings_buttonnf.png</texture>
                                 </control>
-                                <control type="label">
-                                    <left>35</left>
+							    <control type="label">
+                                    <left>-30</left>
                                     <top>0</top>
                                     <width>60</width>
                                     <height>48</height>
@@ -2151,17 +2151,7 @@
                                     <font>Font_Reg29</font>
                                     <textcolor>grey2</textcolor>
                                 </control>
-                                <!--                 <control type="label">
-                    <top>10</top>
-                    <left>235</left>
-                    <width>660</width>
-                    <height>60</height>
-                    <textcolor>grey2</textcolor>
-                    <align>right</align>
-                    <number>yes</number>
-                    <font>Font_Reg29</font>
-                    <label>$INFO[ListItem.Property(Number)]</label>
-                </control> -->
+               
                             </itemlayout>
                             <focusedlayout height="48" width="800">
                                 <control type="image">
@@ -2179,7 +2169,7 @@
                                     <texture border="3">osd/osd_settings_buttonnf.png</texture>
                                 </control>
                                 <control type="label">
-                                    <left>35</left>
+                                    <left>-30</left>
                                     <top>0</top>
                                     <width>60</width>
                                     <height>48</height>

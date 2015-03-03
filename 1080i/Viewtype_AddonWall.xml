@@ -876,7 +876,7 @@
                                     <bordersize>5</bordersize>
                                 </control>
                                 <control type="label">
-                                    <left>142</left>
+                                    <left></left>
                                     <top>110</top>
                                     <width>285</width>
                                     <height>51</height>
@@ -953,8 +953,8 @@
                                     <animation effect="fade" start="100" end="80" time="40" condition="true">Conditional</animation>
                                     <bordersize>5</bordersize>
                                 </control>
-                                <control type="label">
-                                    <left>142</left>
+							    <control type="label">
+                                    <left></left>
                                     <top>110</top>
                                     <width>285</width>
                                     <height>51</height>

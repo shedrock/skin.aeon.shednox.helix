@@ -545,12 +545,23 @@
 					<selected>Skin.HasSetting(infopanelbackground)</selected>
 					<visible>Stringcompare(Window(home).Property(actualViewtype),InfoPanel)</visible>
 				</control>
-				<control type="radiobutton" id="16573">
+				<!-- MAD - Split infopanel CDART switch for movies & albums -->
+				
+               <control type="radiobutton" id="16583">
+					<label>31812</label>
+					<include>Objects_MediaMenuButtonAlt2</include>
+					<onclick>Skin.ToggleSetting(infopaneldiscart)</onclick>
+					<selected>Skin.HasSetting(infopaneldiscart)</selected>
+					<visible>Container.Content(movies)</visible>
+					<visible>Stringcompare(Window(home).Property(actualViewtype),InfoPanel)</visible>
+				</control>
+				
+                 <control type="radiobutton" id="16584">
 					<label>31812</label>
 					<include>Objects_MediaMenuButtonAlt2</include>
 					<onclick>Skin.ToggleSetting(infopanelcdart)</onclick>
 					<selected>Skin.HasSetting(infopanelcdart)</selected>
-					<visible>Container.Content(movies)</visible>
+					<visible>Container.Content(albums)</visible>
 					<visible>Stringcompare(Window(home).Property(actualViewtype),InfoPanel)</visible>
 				</control>
 				<control type="radiobutton" id="16574">

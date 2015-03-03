@@ -219,11 +219,11 @@
 				<visible>Control.IsVisible(52)</visible>
 				<visible>[Stringcompare(Skin.String(TriPanelPosition),1) | IsEmpty(Skin.String(TriPanelPosition))] + !Container.Content(years) + !Container.Content(countries)</visible>
 				<control type="image">
-					<left>55</left>
-					<top>827</top>
+					<left>67</left>
+					<top>840</top>
 					<width>530</width>
 					<height>795</height>
-					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+					<aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
 					<texture background="true" flipy="true" diffuse="views/tripanel/poster_diffuse_ref.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
@@ -233,7 +233,7 @@
 					<top>827</top>
 					<width>530</width>
 					<height>795</height>
-					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+					<aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
 					<texture background="true" flipy="true" diffuse="views/tripanel/poster_diffuse_ref.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 					<fadetime>400</fadetime>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -243,7 +243,7 @@
 					<top>31</top>
 					<width>530</width>
 					<height>795</height>
-					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
+					<aspectratio align="center" scalediffuse="false">fit</aspectratio>
 					<texture background="true" diffuse="views/tripanel/poster_diffuse.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
@@ -253,7 +253,7 @@
 					<top>31</top>
 					<width>530</width>
 					<height>795</height>
-					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
+					<aspectratio align="center" scalediffuse="false">fit</aspectratio>
 					<texture background="true" diffuse="views/tripanel/poster_diffuse.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 					<fadetime>400</fadetime>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -270,7 +270,7 @@
 					<left>12</left>
 					<width>640</width>
 					<height>980</height>
-					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
+					<aspectratio align="center" scalediffuse="false">fit</aspectratio>
 					<texture>views/tripanel/poster_overlay.png</texture>
 				</control>
 				<control type="image">
@@ -306,21 +306,21 @@
 					<visible>!Skin.HasSetting(DisableGlowbar)</visible>
 				</control>
 				<control type="image">
-					<left>52</left>
-					<top>762</top>
+					<left>62</left>
+					<top>770</top>
 					<width>487</width>
 					<height>732</height>
-					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+					<aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
 					<texture background="true" flipy="true" diffuse="views/tripanel/poster_diffuse_ref.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
 				</control>
 				<control type="image">
-					<left>52</left>
+					<left>62</left>
 					<top>762</top>
 					<width>487</width>
 					<height>732</height>
-					<aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+					<aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
 					<texture background="true" flipy="true" diffuse="views/tripanel/poster_diffuse_ref.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 					<fadetime>400</fadetime>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -330,7 +330,7 @@
 					<top>29</top>
 					<width>487</width>
 					<height>732</height>
-					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
+					<aspectratio align="center" scalediffuse="false">fit</aspectratio>
 					<texture background="true" diffuse="views/tripanel/poster_diffuse.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 					<fadetime>400</fadetime>
 					<visible>Skin.HasSetting(genrethumbs)</visible>
@@ -340,7 +340,7 @@
 					<top>29</top>
 					<width>487</width>
 					<height>732</height>
-					<aspectratio align="center" scalediffuse="false">scale</aspectratio>
+					<aspectratio align="center" scalediffuse="false">fit</aspectratio>
 					<texture background="true" diffuse="views/tripanel/poster_diffuse.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 					<fadetime>400</fadetime>
 					<visible>!Skin.HasSetting(genrethumbs)</visible>
@@ -964,7 +964,7 @@
 							<top>42</top>
 							<width>680</width>
 							<height>49</height>
-							<label>$VAR[ListLabel2Var]</label>
+							<label>$VAR[TriPanelValue2Var]</label>
 							<font>Font_Reg30_2</font>
 							<textcolor>grey2</textcolor>
 						</control>
@@ -1052,7 +1052,7 @@
 							<top>42</top>
 							<width>680</width>
 							<height>49</height>
-							<label>$VAR[ListLabel2Var]</label>
+							<label>$VAR[TriPanelValue2Var]</label>
 							<font>Font_Reg30_2</font>
 						</control>
 						<control type="label">

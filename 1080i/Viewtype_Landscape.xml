@@ -51,7 +51,7 @@
 				<texture>thumbs/multiplex_labelblock.png</texture>
 			</control>
 			<control type="label">
-				<left>249</left>
+				<left>60</left>
 				<top>300</top>
 				<width>375</width>
 				<height>90</height>
@@ -182,6 +182,7 @@
 					<visible>Control.IsVisible(503) + Skin.HasSetting(landscapeonelogo) + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)]</visible>
 					<visible>![Container.OnNext | Container.OnPrevious]</visible>
 				</control>
+				-----------brnetos
 				<control type="label">
 					<left>510</left>
 					<top>1000</top>
@@ -196,7 +197,7 @@
 					<scroll>true</scroll>
 					<scrollspeed>30</scrollspeed>
 					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [Container.Content(tvshows) | Container.Content(movies) | Container.Content(artists)]]</visible>
-					<visible>!Container.Content(episodes)</visible>
+					<visible>!Container.Content(episodes) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]]</visible>
 				</control>
 				<control type="label">
 					<left>510</left>
@@ -212,7 +213,8 @@
 					<scroll>true</scroll>
 					<scrollspeed>30</scrollspeed>
 					<visible>Container.Content(episodes)</visible>
-					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [Container.Content(tvshows) | Container.Content(movies)]]</visible>
+					<!--visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [Container.Content(tvshows) | Container.Content(movies)]]</visible-->
+					<visible>![[Skin.HasSetting(landscapelogo) | Skin.HasSetting(landscapeonelogo)] + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]]]</visible>
 				</control>
 				<control type="label">
 					<left>510</left>
@@ -225,7 +227,7 @@
 					<include>Animation_VisibleChange200</include>
 					<scroll>true</scroll>
 					<scrollspeed>30</scrollspeed>
-					<visible>Skin.HasSetting(landscapelogo) + [Container.Content(tvshows) | Container.Content(movies)] + !Control.HasFocus(61)</visible>
+					<visible>Skin.HasSetting(landscapelogo) + [[Container.Content(tvshows) + !Skin.HasSetting(NoFloorLabelTVshows)] | [Container.Content(movies)+ !Skin.HasSetting(NoFloorLabelMovies)]] + !Control.HasFocus(61)</visible>
 				</control>
 			</control>
 		</control>
@@ -323,7 +325,7 @@
 		<control type="group">
 			<visible>IsEmpty(ListItem.Art(clearlogo))</visible>
 			<control type="label">
-				<left>248</left>
+				<left>13</left>
 				<top>100</top>
 				<width>470</width>
 				<align>center</align>
@@ -357,7 +359,7 @@
 		<control type="group">
 			<visible>IsEmpty(ListItem.Art(clearlogo)) + IsEmpty(ListItem.Art(clearart))</visible>
 			<control type="label">
-				<left>248</left>
+				<left>13</left>
 				<top>100</top>
 				<width>470</width>
 				<align>center</align>

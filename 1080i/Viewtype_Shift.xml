@@ -66,7 +66,7 @@
             <top>150</top>
             <width>300</width>
             <height>450</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
+            <aspectratio scalediffuse="false">fit</aspectratio>
             <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 			<visible>Skin.HasSetting(genrethumbs)</visible>
         </control>
@@ -75,7 +75,7 @@
             <top>150</top>
             <width>300</width>
             <height>450</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
+            <aspectratio scalediffuse="false">fit</aspectratio>
             <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 			<visible>!Skin.HasSetting(genrethumbs)</visible>
         </control>
@@ -93,7 +93,7 @@
             <top>601</top>
             <width>300</width>
             <height>450</height>
-            <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+            <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
             <texture background="true" flipy="true" diffuse="thumbs/movieposter_mask_reflect.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
             <animation effect="fade" start="100" end="30" time="160">Focus</animation>
             <animation effect="fade" start="30" end="100" time="160">UnFocus</animation>
@@ -104,7 +104,7 @@
             <top>601</top>
             <width>300</width>
             <height>450</height>
-            <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+            <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
             <texture background="true" flipy="true" diffuse="thumbs/movieposter_mask_reflect.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
             <animation effect="fade" start="100" end="30" time="160">Focus</animation>
             <animation effect="fade" start="30" end="100" time="160">UnFocus</animation>
@@ -145,7 +145,7 @@
             <top>150</top>
             <width>150</width>
             <height>225</height>
-            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <aspectratio scalediffuse="false">fit</aspectratio>
             <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
 			<visible>Skin.HasSetting(genrethumbs)</visible>
         </control>
@@ -154,7 +154,7 @@
             <top>150</top>
             <width>150</width>
             <height>225</height>
-            <aspectratio scalediffuse="false">stretch</aspectratio>
+            <aspectratio scalediffuse="false">fit</aspectratio>
             <texture background="true" diffuse="thumbs/movieposter_mask.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
 			<visible>!Skin.HasSetting(genrethumbs)</visible>
         </control>
@@ -172,7 +172,7 @@
             <top>381</top>
             <width>150</width>
             <height>225</height>
-            <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+            <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
             <texture background="true" flipy="true" diffuse="thumbs/movieposter_mask_reflect.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar]</texture>
             <animation effect="fade" start="100" end="30" time="160">Focus</animation>
             <animation effect="fade" start="30" end="100" time="160">UnFocus</animation>
@@ -183,7 +183,7 @@
             <top>381</top>
             <width>150</width>
             <height>225</height>
-            <aspectratio aligny="top" scalediffuse="false">scale</aspectratio>
+            <aspectratio aligny="top" scalediffuse="false">fit</aspectratio>
             <texture background="true" flipy="true" diffuse="thumbs/movieposter_mask_reflect.png" fallback="DefaultVideoBigPoster.png">$VAR[ListPosterVar1]</texture>
             <animation effect="fade" start="100" end="30" time="160">Focus</animation>
             <animation effect="fade" start="30" end="100" time="160">UnFocus</animation>
@@ -354,7 +354,9 @@
                 <control type="label">
                     <left>560</left>
                     <top>850</top>
-                    <width>1245</width>
+					<!-- MAD - Shorten title lenght -->
+                    <!--width>1245</width-->
+					<width>910</width>
                     <label>$VAR[FirstLabelVar]</label>
                     <font>Font_ShowcaseMainLabel2_Caps</font>
                     <shadowcolor>floorshadow</shadowcolor>
