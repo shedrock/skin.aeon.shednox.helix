@@ -100,8 +100,8 @@
                         <textcolor>bcicon</textcolor>
                         <info>ListItem.Label</info>
                     </control>
-                    <control type="label">
-                        <left>1041</left>
+				    <control type="label">
+                        <left>245</left>
                         <width>795</width>
                         <height>60</height>
                         <align>right</align>
@@ -109,6 +109,7 @@
                         <textcolor>bcicon</textcolor>
                         <info>ListItem.Label2</info>
                     </control>
+					
                     <control type="image">
                         <left>1032</left>
                         <top>16</top>
@@ -139,8 +140,8 @@
                         <textcolor>white6</textcolor>
                         <info>ListItem.Label</info>
                     </control>
-                    <control type="label">
-                        <left>1041</left>
+			        <control type="label">
+                        <left>245</left>
                         <width>795</width>
                         <height>60</height>
                         <align>right</align>
@@ -184,7 +185,7 @@
                         <info>ListItem.Label</info>
                     </control>
                     <control type="label">
-                        <left>1041</left>
+                        <left>245</left>
                         <width>795</width>
                         <height>60</height>
                         <align>right</align>
@@ -223,7 +224,7 @@
                         <info>ListItem.Label</info>
                     </control>
                     <control type="label">
-                        <left>1041</left>
+                        <left>245</left>
                         <width>795</width>
                         <height>60</height>
                         <align>right</align>
